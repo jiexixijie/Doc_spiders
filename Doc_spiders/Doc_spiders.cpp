@@ -8,6 +8,7 @@
 #include <Windows.h>
 #include <fstream>
 #include <iostream>
+#include <conio.h>  
 #include "spider.h"
 
 #pragma comment(lib,"ws2_32.lib")
@@ -20,6 +21,9 @@ extern std::vector<std::string> Search;
 
 void Add_Search_Info(const std::string(&limit)[MAX_LENGTH], const std::string(&Keyword)[MAX_LENGTH]);
 void Catch(Spider spider,const char *filename);
+bool Want_exit();
+
+bool want_exit = FALSE;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -116,4 +120,20 @@ void Add_Search_Info(const std::string(&limit)[MAX_LENGTH], const std::string(&K
 	{
 		int i = _mkdir(dirName.c_str());
 	}
+}
+
+bool Want_exit(){
+	if (_kbhit())  //键盘存在输入
+	{
+		char key = _getch();
+		if (key == 'E' || key == 'e')
+		{
+			return true;
+		}
+		else
+		{
+			printf("Input E to exit now!\r\n");
+		}
+	}
+	return false;
 }
