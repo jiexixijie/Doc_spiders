@@ -1,0 +1,838 @@
+HTTP/1.1 200 OK
+Date: Mon, 04 Jun 2018 06:52:10 GMT
+Server: Apache/2.2.31 (Unix) DAV/2 mod_jk/1.2.23
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+8db
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>班车时刻表</title>
+    
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/1/1.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/00/05/5/style/163/163.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="5"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<link rel="icon" href="/_upload/tpl/00/2c/44/template44/images/njupt-favicon.ico" type="image/x-icon">
+    <!-- My css -->
+    <link href="/_upload/tpl/00/2c/44/template44/css/base.css" rel="stylesheet">
+    <link href="/_upload/tpl/00/2c/44/template44/css/ui.css" rel="stylesheet">
+    <link href="/_upload/tpl/00/2c/44/template44/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="contain-box">
+    <!-- start-header -->
+    <div class="header">
+        <div class="wrapper">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="30%" align="left">
+                        <a href="http://www.njupt.edu.cn/">
+                            <img src="/_upload/tpl/00/2c/44/template44/images/logo.png" title="南京邮电大学| Nanjing University of Posts and Telecommunications" />
+                        </a>
+                    </td>
+                    <td width="70%">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="39px">
+                                    
+<div frag="窗口11"> 
+
+879
+ 
+<table align="right" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td class="channel11"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0><tr><td  align=left><a href='/111/list.htm' id="p1c111" target='_self'>在校学生</a></td></tr></table></td>
+                                                <td width="10px" class="classify_space">|</td>
+                                            
+                                                <td class="channel11"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0><tr><td  align=left><a href='/114/list.htm' id="p1c114" target='_self'>教职员工</a></td></tr></table></td>
+                                                <td width="10px" class="classify_space">|</td>
+                                            
+                                                <td class="channel11"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0><tr><td  align=left><a href='http://xyh.njupt.edu.cn/' id="p1c113" target='_blank'>南邮校友</a></td></tr></table></td>
+                                                <td width="10px" class="classify_space">|</td>
+                                            
+                                                <td class="channel11"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0><tr><td  align=left><a href='/112/list.htm' id="p1c112" target='_self'>外来访客</a></td></tr></table></td>
+                                                <td width="10px" class="classify_space">|</td>
+                                            
+                                                <td class="channel11"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0><tr><td  align=left><a href='http://www.njupt.edu.cn/_t45/main.htm' id="p1c116" target='_blank'>旧版入口</a></td></tr></table></td>
+                                                <td width="10px" class="classify_space">|</td>
+                                            </tr>
+                                        </table>
+1a3
+ 
+</div> 
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="52px">
+                                    <div class="search-fr">
+                                            <div frag="面板30">
+                                            	<div frag="窗口30">
+                                                	
+375
+<form method="POST" action="/_web/search/doSearch.do?locale=zh_CN&request_locale=zh_CN&_p=YXM9NSZ0PTQ0JmQ9MTM4JnA9MiZmPTcmbT1TTiZ8Ym5uQ29sdW1uVmlydHVhbE5hbWU9NyY_" target="_blank" onsubmit="if ($('#keyword').val() === '请输入关键字') { $('#keyword').val(''); }">
+    <div class="wp_search">
+        <table>
+            <tr>
+                <td height="25px">
+                    <input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }"
+                           onblur="if (this.value === '') { this.value = '请输入关键字'; }" />
+                </td>
+                <td>
+                    <input name="btnsearch" class="search" type="submit" value=""/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+1fc
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- End-header -->
+    <!-- start-nav -->
+    <div class="nav">
+        <div class="wrapper">
+            
+<div frag="窗口111"> 
+
+47a4
+<style type='text/css'>.menuskin111{border-style:solid;VISIBILITY: hidden;border-width:0px;border-color:#2F87CF;background-color:#2F87CF;text-align:left;position: absolute;}.menuskin111 a{font-family:宋体;font-size:14;color:#FFFFFF;}.menuskin111 a:hover{text-decoration: none;font-family:宋体;font-size:14;color:#EBC013;}.menuskin111 a:visited{text-decoration: none;font-family:宋体;font-size:14;}#mouseoverstyle111{padding:1px;margin: 2px;border-style:solid;border-width:0px;border-color:#2B6ED3;background-color:#2B6ED3;}.menuitems111{padding: 1px;border-style:solid;border-width:0px; background-color:#2F87CF; border-color:#2F87CF; height:; margin: 2px;word-break: keep-all;}</style><script language="javascript" type="text/javascript" src="/_js/ListMenu.js"></script><script language='javascript'>var linkset111 = new Array();</script> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" height="61px">
+                    <tr>
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z107 nowrap><a href='http://www.njupt.edu.cn' id="p111c107" target='_self' onmouseover="showmenu(event,0,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >首页</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z8 nowrap><a href='/8/list.htm' id="p111c8" target='_self' onmouseover="showmenu(event,1,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >南邮概况</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z25 nowrap><a href='/25/list.htm' id="p111c25" target='_self' onmouseover="showmenu(event,2,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >部门设置</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z29 nowrap><a href='/29/list.htm' id="p111c29" target='_self' onmouseover="showmenu(event,3,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >教学机构</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z30 nowrap><a href='http://pg.njupt.edu.cn' id="p111c30" target='_self' onmouseover="showmenu(event,4,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >学科建设</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z40 nowrap><a href='/40/list.htm' id="p111c40" target='_self' onmouseover="showmenu(event,5,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >科学研究</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z46 nowrap><a href='/46/list.htm' id="p111c46" target='_self' onmouseover="showmenu(event,6,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >招生就业</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z54 nowrap><a href='http://www.njupt.edu.cn/xxgkw/main.htm' id="p111c54" target='_self' onmouseover="showmenu(event,7,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >信息公开</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z31 nowrap><a href='/31/list.htm' id="p111c31" target='_self' onmouseover="showmenu(event,8,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >人才培养</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z52 nowrap><a href='http://my.njupt.edu.cn' id="p111c52" target='_self' onmouseover="showmenu(event,9,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >智慧校园</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z108 nowrap><a href='http://overseas.njupt.edu.cn/_t280/p4619c4462/list.htm' id="p111c108" target='_self' onmouseover="showmenu(event,10,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >中外合作办学专栏</a></td></tr></table></td>
+                    
+                        <td  align="left" class="channel111"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout111' ><tr><td  align=left class=flyoutLink handle=z127 nowrap><a href='http://www.njupt.edu.cn/en/' id="p111c127" target='_self' onmouseover="showmenu(event,11,1,false,6,'menu111',linkset111,0)" onmouseout="delayhidemenu()" >English Version</a></td></tr></table></td>
+                    </tr>
+                </table>
+<div id="menu111" class="menuskin111" style="z-index:100" onmouseover="clearhidemenu(); highlightmenu(event,'on','menu111',111);" onmouseout="highlightmenu(event,'off','menu111',111); dynamichide(event,'menu111');"></div>
+<script language='javascript' type='text/javascript'>linkset111[0] = new Array();linkset111[1] = new Array();linkset111[1][0] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/9/list.htm' title='学校简介' target='_self'/>学校简介</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][1] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/10/list.htm' title='学校章程' target='_self'/>学校章程</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][2] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/11/list.htm' title='南邮精神' target='_self'/>南邮精神</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][3] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/12/list.htm' title='校标校训' target='_self'/>校标校训</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][4] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/13/list.htm' title='南邮校史' target='_self'/>南邮校史</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][5] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/14/list.htm' title='现任领导' target='_self'/>现任领导</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][6] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/15/list.htm' title='联络交通' target='_self'/>联络交通</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][7] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/16/list.htm' title='视频展播' target='_self'/>视频展播</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][8] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://180.209.64.8//pano/index.htm' title='校园实景漫游' target='_self'/>校园实景漫游</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][9] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://campus.njupt.edu.cn/tushuonanyou' title='图说南邮' target='_self'/>图说南邮</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][10] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/19/list.htm' title='校园景色' target='_self'/>校园景色</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[1][11] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/20/list.htm' title='校区地图' target='_self'/>校区地图</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[2] = new Array();linkset111[2][0] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/26/list.htm' title='党政群部门' target='_self'/>党政群部门</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[2][1] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/28/list.htm' title='直属单位' target='_self'/>直属单位</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[2][2] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/27/list.htm' title='基层党的组织' target='_self'/>基层党的组织</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[2][3] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/dlxy/list.htm' title='独立学院' target='_self'/>独立学院</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[3] = new Array();linkset111[4] = new Array();linkset111[5] = new Array();linkset111[5][0] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://kyy.njupt.edu.cn/' title='自然科学研究' target='_self'/>自然科学研究</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[5][1] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://kyy.njupt.edu.cn/' title='社会科学研究' target='_self'/>社会科学研究</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[5][2] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://gjs.njupt.edu.cn' title='高等教育研究' target='_self'/>高等教育研究</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[5][3] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/44/list.htm' title='科技基础条件平台' target='_self'/>科技基础条件平台</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[5][4] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://qks.njupt.edu.cn/' title='学术刊物' target='_self'/>学术刊物</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[6] = new Array();linkset111[6][0] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://zs.njupt.edu.cn' title='本科招生' target='_self'/>本科招生</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[6][1] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://yzb.njupt.edu.cn/' title='研究生招生' target='_self'/>研究生招生</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[6][2] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://exchange.njupt.edu.cn/7459/list.htm' title='留学生招生' target='_self'/>留学生招生</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[6][3] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://jjy.njupt.edu.cn/' title='继续教育招生' target='_self'/>继续教育招生</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[6][4] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://njupt.91job.gov.cn/' title='就业与创业' target='_self'/>就业与创业</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[7] = new Array();linkset111[8] = new Array();linkset111[8][0] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://jwc.njupt.edu.cn/' title='本科' target='_self'/>本科</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][1] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://pg.njupt.edu.cn' title='研究生' target='_self'/>研究生</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][2] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://overseas.njupt.edu.cn/' title='留学生' target='_self'/>留学生</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][3] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://jjy.njupt.edu.cn/' title='继续教育' target='_self'/>继续教育</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][4] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://gfs.njupt.edu.cn/' title='国防生教育' target='_self'/>国防生教育</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][5] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://zlgc.njupt.edu.cn/' title='教学质量与改革工程' target='_self'/>教学质量与改革工程</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][6] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/38/list.htm' title='实验教学示范中心' target='_self'/>实验教学示范中心</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[8][7] = "<div class='menuitems111'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://jxzx.njupt.edu.cn/' title='教学质量监控与评估' target='_self'/>教学质量监控与评估</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset111[9] = new Array();linkset111[10] = new Array();linkset111[11] = new Array();window.menuReady_menu111=true;</script>
+28b
+ 
+</div> 
+
+        </div>
+    </div>
+    <!-- End-nav -->
+
+    <!-- start-listColumn -->
+    <div class="listColumn wrapper">
+        <div class="listColumnWrapper">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                <tr>
+                    <td align="center" valign="top" id="listleft">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td height="33" class="biaoti1">
+<span frag="窗口5" portletmode="simpleColumnAnchor"> 
+
+2f
+<span class='Column_Anchor'>信息服务</span>
+d1
+ 
+</span> 
+</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        
+<div frag="窗口1" portletmode="simpleColumnList"> 
+
+2002
+ 
+ 
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="http://lib.njupt.edu.cn/" title="图书馆" class="" target="_blank">图书馆</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="http://jwc.njupt.edu.cn/" title="教务导航" class="" target="_blank">教务导航</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="http://www.njupt.edu.cn/2017/0619/c72a108279/page.htm" title="办公信息" class="" target="_blank">办公信息</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="mailto:shuji@njupt.edu.cn" title="书记信箱" class="" target="_blank">书记信箱</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="mailto:xiaozhang@njupt.edu.cn" title="校长信箱" class="" target="_blank">校长信箱</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="http://mail.njupt.edu.cn" title="电子邮件" class="" target="_blank">电子邮件</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="/147/list.htm" title="班车时刻表" class="" target="_blank">班车时刻表</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="/148/list.htm" title="作息时间表" class="" target="_blank">作息时间表</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="/149/list.htm" title="办公电话" class="" target="_self">办公电话</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="https://218.2.103.165:4443" title="VPN登录" class="" target="_self">VPN登录</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+
+                            <tbody>
+                            <tr>
+                                <td width="34">&nbsp;</td>
+                                <td height="29" style="border-bottom: 1px solid #E3E3E3;"><a href="http://xxb.njupt.edu.cn/2014/0911/c5257a68793/page.htm" title="正版软件" class="" target="_self">正版软件</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            
+  
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        
+  
+</table>
+  
+
+294
+ 
+</div> 
+
+                    </td>
+                    <td valign="top" id="listright">
+                        <table width="100%" height="400" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                            <tr>
+                                <td valign="top">
+                                    <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                        <tbody>
+                                        <tr>
+                                            <td height="53" class="biaoti5">
+<span frag="窗口4" portletmode="simpleColumnName"> 
+
+30
+<span class='Column_Name'>班车时刻表</span>
+39e
+ 
+</span> 
+</td>
+                                            <td height="53" background="/_upload/tpl/00/2c/44/template44/css/images/lmain2_2.gif">
+                                                <table width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td height="20">
+                                                            <table width="100%" height="25" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td align="right">当前位置: 
+<span frag="窗口3" portletmode="simpleColumnPosition"> 
+
+118
+<span class='Column_Position'><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/139/list.htm" target="_self">信息服务</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/147/list.htm" target="_blank">班车时刻表</a></span>
+43f
+ 
+</span> 
+</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <table width="95%" border="0" cellpadding="0" cellspacing="0">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div id="newslist">
+                                                    
+<div frag="窗口2" portletmode="simpleList"> 
+
+26d3
+ 
+<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0"> 
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2018/0120/c147a121580/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2018年2月26日起执行）'>南京邮电大学交通车运行时刻表（2018年2月26日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2018-02-12</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2016/1014/c147a28/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2016年10月17日起执行）'>南京邮电大学交通车运行时刻表（2016年10月17日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2016-10-14</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2016/0429/c147a27/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2016年5月3日起执行）'>南京邮电大学交通车运行时刻表（2016年5月3日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2016-04-29</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2016/0318/c147a13/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2016年3月16日起执行）'>南京邮电大学交通车运行时刻表（2016年3月16日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2016-03-18</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2015/1008/c147a15/page.htm' target='_blank' title=' 南京邮电大学交通车运行时刻表（2015年10月12日起执行）'> 南京邮电大学交通车运行时刻表（2015年10月12日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2015-10-08</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2015/0828/c147a17/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2015年8月31日起执行）'>南京邮电大学交通车运行时刻表（2015年8月31日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2015-08-28</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2015/0403/c147a19/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2015年4月7日起执行）'>南京邮电大学交通车运行时刻表（2015年4月7日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2015-04-03</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2014/0825/c147a21/page.htm' target='_blank' title='南京邮电大学交通车运行时刻表（2014年2月17日起执行）'>南京邮电大学交通车运行时刻表（2014年2月17日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2014-08-25</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2014/0215/c147a23/page.htm' target='_blank' title='交通车运行时刻表（2月16日及2月17日起执行）'>交通车运行时刻表（2月16日及2月17日起执行）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2014-02-15</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+  
+
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="28"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2009/0430/c147a25/page.htm' target='_blank' title='交通车运行时刻表'>交通车运行时刻表</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2013-11-01</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    
+ </table>
+ <div id="wp_paging_w2"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">14</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">10</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="javascript:void(0);" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="javascript:void(0);" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="javascript:void(0);" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="javascript:void(0);" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">1</em>/<em class="all_pages">1</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w2 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w2 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 1) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/147/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+485
+ 
+</div> 
+
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!---End-listColumn ---->
+
+    <!-- start-footer -->
+    <!-- start-footer -->
+    <div class="footer">
+        <table border="0" cellspacing="0" cellpadding="0" >
+            <tr>
+                <td width="283px">
+                    <table height="100px" border="0" cellspacing="0" cellpadding="0" style="margin-left:15px;">
+                        <tr>
+                            <td><img src="/_upload/tpl/00/2c/44/template44/images/xx.png"/></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    
+<div frag="窗口21"> 
+
+349d
+<style type='text/css'>.menuskin21{border-style:solid;VISIBILITY: hidden;border-width:0px;border-color:#2F87CF;background-color:#2F87CF;text-align:left;position: absolute;}.menuskin21 a{font-family:宋体;font-size:14;color:#FFFFFF;}.menuskin21 a:hover{text-decoration: none;font-family:宋体;font-size:14;color:#EBC013;}.menuskin21 a:visited{text-decoration: none;font-family:宋体;font-size:14;}#mouseoverstyle21{padding:1px;margin: 2px;border-style:solid;border-width:0px;border-color:#2B6ED3;background-color:#2B6ED3;}.menuitems21{padding: 1px;border-style:solid;border-width:0px; background-color:#2F87CF; border-color:#2F87CF; height:; margin: 2px;word-break: keep-all;}</style><script language="javascript" type="text/javascript" src="/_js/ListMenu.js"></script><script language='javascript'>var linkset21 = new Array();</script> 
+<table height="100px" border="0" cellspacing="0" cellpadding="0" style="margin-left: -20px;">
+                            <tr>
+                                <td  class="channel21"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout21' ><tr><td  align=left class=flyoutLink handle=z137 nowrap><a href='http://xyh.njupt.edu.cn/' id="p21c137" target='_blank' onmouseover="showmenu(event,0,1,false,2,'menu21',linkset21,0)" onmouseout="delayhidemenu()" >校友会</a></td></tr></table></td>
+                            
+                                <td  class="channel21"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout21' ><tr><td  align=left class=flyoutLink handle=z153 nowrap><a href='http://lhbgs.njupt.edu.cn/' id="p21c153" target='_blank' onmouseover="showmenu(event,1,1,false,2,'menu21',linkset21,0)" onmouseout="delayhidemenu()" >校董会、基金会</a></td></tr></table></td>
+                            
+                                <td  class="channel21"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout21' ><tr><td  align=left class=flyoutLink handle=z139 nowrap><a href='/139/list.htm' id="p21c139" target='_self' onmouseover="showmenu(event,2,1,false,2,'menu21',linkset21,0)" onmouseout="delayhidemenu()" >信息服务</a></td></tr></table></td>
+                            
+                                <td  class="channel21"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout21' ><tr><td  align=left class=flyoutLink handle=z158 nowrap><a href='http://www.nytdc.edu.cn/' id="p21c158" target='_blank' onmouseover="showmenu(event,3,1,false,2,'menu21',linkset21,0)" onmouseout="delayhidemenu()" >通达学院</a></td></tr></table></td>
+                            
+                                <td  class="channel21"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout21' ><tr><td  align=left class=flyoutLink handle=z124 nowrap><a href='/124/list.htm' id="p21c124" target='_blank' onmouseover="showmenu(event,4,1,false,2,'menu21',linkset21,0)" onmouseout="delayhidemenu()" >校园文化</a></td></tr></table></td>
+                            
+                                <td  class="channel21"><table width='100%' height='1' cellpadding=0 cellspacing=0 border=0 transverse=true class=flyoutMenu menudata='#hpflyout21' ><tr><td  align=left class=flyoutLink handle=z84 nowrap><a href='/84/list.htm' id="p21c84" target='_self' onmouseover="showmenu(event,5,1,false,2,'menu21',linkset21,0)" onmouseout="delayhidemenu()" >友情链接</a></td></tr></table></td>
+                            </tr>
+                        </table>
+<div id="menu21" class="menuskin21" style="z-index:100" onmouseover="clearhidemenu(); highlightmenu(event,'on','menu21',21);" onmouseout="highlightmenu(event,'off','menu21',21); dynamichide(event,'menu21');"></div>
+<script language='javascript' type='text/javascript'>linkset21[0] = new Array();linkset21[1] = new Array();linkset21[2] = new Array();linkset21[2][0] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://lib.njupt.edu.cn/' title='图书馆' target='_blank'/>图书馆</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][1] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://jwc.njupt.edu.cn/' title='教务导航' target='_blank'/>教务导航</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][2] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.njupt.edu.cn/2017/0619/c72a108279/page.htm' title='办公信息' target='_blank'/>办公信息</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][3] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='mailto:shuji@njupt.edu.cn' title='书记信箱' target='_blank'/>书记信箱</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][4] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='mailto:xiaozhang@njupt.edu.cn' title='校长信箱' target='_blank'/>校长信箱</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][5] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://mail.njupt.edu.cn' title='电子邮件' target='_blank'/>电子邮件</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][6] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/147/list.htm' title='班车时刻表' target='_blank'/>班车时刻表</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][7] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/148/list.htm' title='作息时间表' target='_blank'/>作息时间表</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][8] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='/149/list.htm' title='办公电话' target='_self'/>办公电话</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][9] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='https://218.2.103.165:4443' title='VPN登录' target='_self'/>VPN登录</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[2][10] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://xxb.njupt.edu.cn/2014/0911/c5257a68793/page.htm' title='正版软件' target='_self'/>正版软件</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[3] = new Array();linkset21[4] = new Array();linkset21[4][0] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://xl.njupt.edu.cn' title='心灵驿站' target='_blank'/>心灵驿站</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[4][1] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://bbs.njupt.edu.cn' title='紫金飞鸿' target='_blank'/>紫金飞鸿</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5] = new Array();linkset21[5][0] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.itu.int/zh/Pages/default.aspx' title='国际电信联盟' target='_self'/>国际电信联盟</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][1] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.moe.edu.cn/' title='中国教育部' target='_blank'/>中国教育部</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][2] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.most.gov.cn/' title='中国科技部' target='_blank'/>中国科技部</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][3] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.pgzx.edu.cn/' title='教育部高等教育教学评估中心' target='_blank'/>教育部高等教育教学评估中心</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][4] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.crs.jsj.edu.cn/index.php/default/index' title='中外合作办学监管工作信息平台' target='_blank'/>中外合作办学监管工作信息平台</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][5] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.edu.cn/' title='中国教育和科研计算机网' target='_blank'/>中国教育和科研计算机网</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][6] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.nic.edu.cn/' title='CERNIC网络信息中心' target='_blank'/>CERNIC网络信息中心</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][7] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://ip.njupt.edu.cn' title='中国IP网' target='_blank'/>中国IP网</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][8] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.jsjyt.gov.cn/' title='江苏省教育厅' target='_blank'/>江苏省教育厅</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][9] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.jsjyt.gov.cn/jsjydj' title='江苏教育党建网' target='_blank'/>江苏教育党建网</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][10] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://www.jstd.gov.cn/' title='江苏省科技厅' target='_blank'/>江苏省科技厅</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][11] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://202.119.175.199/index.php' title='江苏高校科技网' target='_blank'/>江苏高校科技网</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][12] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://kaoyan.njupt.edu.cn/' title='南邮通信培训中心' target='_blank'/>南邮通信培训中心</a></td><td width='8'>&nbsp;</td></tr></table></div>";linkset21[5][13] = "<div class='menuitems21'><table border='0' cellpadding='0' cellspacing='0'><tr><td width='8'>&nbsp;</td><td height='18' nowrap='nowrap' align='center' valign='middle'><a href='http://ciciot.njupt.edu.cn' title='江苏物联网技术与应用协同创新中心' target='_blank'/>江苏物联网技术与应用协同创新中心</a></td><td width='8'>&nbsp;</td></tr></table></div>";window.menuReady_menu21=true;</script>
+2f2
+ 
+</div> 
+
+                </td>
+            </tr>
+        </table>
+        <div class="menu">
+            <a href="http://www.njupt.edu.cn/" target="_blank">
+                <div class="common-menu m1">
+                    <span class="text1">手机网</span>
+                </div>
+            </a>
+            <a href="http://www.njupt.edu.cn/en/" target="_blank">
+                <div class="common-menu m2">
+                    <span class="text1">英文网</span>
+                </div>
+            </a>
+            <a href="http://www.njupt.edu.cn/150/list.htm" target="_blank">
+                <div class="common-menu m3">
+                    <span class="text1">专题网</span>
+                    
+<div frag="窗口31"> 
+
+6f5
+ 
+<table style="display: none">
+                             
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://www.njupt.edu.cn/lxyz/main.htm' target='_blank' title='&quot;两学一做&quot;学习教育'>&quot;两学一做&quot;学习教育</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                            </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://syssh.njupt.edu.cn/' target='_blank' title='&quot;三严三实&quot;专题教育'>&quot;三严三实&quot;专题教育</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                            </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://uzone.univs.cn/news2_2008_4030.html' target='_blank' title='大学生进阶'>大学生进阶</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                            </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://www.njupt.edu.cn/qzlx/main.htm' target='_blank' title='党的群众路线  教育实践活动'>党的群众路线  教育实践活动</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                            </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/_s88/main.psp' target='_blank' title='第二次党代会'>第二次党代会</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                            </tr> 
+
+                        </table>
+852
+ 
+</div> 
+
+                </div>
+            </a>
+            <a href="http://180.209.64.8//pano/index.htm" target="_blank">
+                <div class="common-menu m4">
+                    <span class="text2">实景漫游</span>
+                </div>
+            </a>
+            <a href="http://bbs.njupt.edu.cn/" target="_blank">
+                <div class="common-menu m5">
+                    <span class="text2">紫金飞鸿 </span>
+                </div>
+            </a>
+            <a href="http://tu.njupt.edu.cn/" target="_blank">
+                <div class="common-menu m6">
+                    <span class="text1">图片网 </span>
+                </div>
+            </a>
+            <a href="http://news.njupt.edu.cn" target="_blank">
+                <div class="common-menu m7">
+                    <span class="text1">新闻网</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="copy-right">
+            <p>仙林校区地址：南京市亚东新城区文苑路9号 邮编：210023 三牌楼校区地址：南京市新模范马路66号 邮编：210003 锁金村校区地址：南京市龙蟠路177号 邮编：210042 </p>
+            <p class="gh"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011302320419" target="_blank"><img src="/_upload/tpl/00/2c/44/template44/images/blue_error.png" alt=""style=" width:30px;height:30px;float: left;"></a><a href="http://www.miitbeian.gov.cn" style="font-size:13px;color:gray" class="su" target="_blank">苏公网安备32011302320419号 |苏ICP备11073489号-1</a></p>
+			<p style="text-align:center;margin:0px;padding:0px;margin-bottom:8px">Copyright &copy; Nanjing University of Posts and Telecommunications All Rights Reserved</p>
+        </div>
+    <!-- End-footer -->
+</div>
+<!-- jquery Library v1.4.1 -->
+<script></script>
+<!-- jquery Library v1.4.1 -->
+<!-- my js -->
+<script src="/_upload/tpl/00/2c/44/template44/js/js.js"></script>
+</body>
+</html>
+
+ <image src="/_visitcount?siteId=5&type=2&columnId=147" style="display:none" width="0" height="0"></image>
+0
+

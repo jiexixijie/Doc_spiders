@@ -1,0 +1,1408 @@
+HTTP/1.1 200 OK
+Date: Mon, 04 Jun 2018 06:53:07 GMT
+Server: Apache/2.2.31 (Unix) DAV/2 mod_jk/1.2.23
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+7cd
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>通信与信息工程学院</title>
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/1/1.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/00/2f/47/style/297/297.css" rel="stylesheet"/>
+       <LINK href="/_css/tpl2/system.css" type="text/css" rel="stylesheet"> 
+       <LINK href="/_css/tpl2/default/default.css" type="text/css" rel="stylesheet"> 
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="47"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_upload/tpl/03/a0/928/template928/extends/extends.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/03/a0/928/template928/style.css" type="text/css" />
+</head>
+<body>
+<!--Start||head-->
+<div class="wrapper header" id="header">
+	<div class="inner">
+	    <!--头部信息-->
+		<div class="bannerbar" frag="面板1">
+			<div class="navbox1" align="right" frag="窗口1">
+				
+2ab
+<div class="articlecontent " >
+    
+        
+            
+                <p style="text-align:right;"><br /><a title="Introduction to CCIE" href="http://ctie.njupt.edu.cn/2009/0718/c2883a40761/page.htm" target="_blank" sudyfile-attr="{'title':'Introduction to CCIE'}">Introduction to CCIE</a>&nbsp;|&nbsp;<a title="南邮首页" href="http://www.njupt.edu.cn/" target="_blank" sudyfile-attr="{'title':'只支持选中一个链接时生效'}">南邮首页</a>&nbsp;|&nbsp;<a href="javascript:window.external.AddFavorite(&#39;http://ctie.njupt.edu.cn/main.htm&#39;, &#39;南京邮电大学通信与信息工程学院&#39;)">加入收藏</a>&nbsp;</p>
+            
+        
+    
+</div>
+137
+
+		    </div>
+		</div>
+		<div class="head" >
+			<!--logo开始-->
+
+		</div>
+    </div>
+</div>
+<!--End||head-->
+
+<!--Start||nav-->
+<div class="wrapper nav wp-navi" id="nav">
+	<div class="inner">
+	    <!--导航-->
+		<div class="navbar" frag="面板2">
+			<div class="navbox" frag="窗口2">
+				
+51e9
+
+					<div class="navi-slide-head">
+		    			<h3 class="navi-slide-title">导航</h3>
+		    			<a class="navi-slide-arrow"></a>
+		    		</div>
+					
+					<ul class="wp-menu clearfix" data-nav-aside='{"title":"导航","index":0}'>
+						
+						<li class="menu-item i1"> <a class="menu-link" href="http://ctie.njupt.edu.cn/main.htm" target="_self">首页</a>
+							
+						</li>
+						
+						<li class="menu-item i2"> <a class="menu-link" href="/2760/list.htm" target="_self">学院概况</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i2-1"><a class="sub-link" href="/2761/list.htm" target="_self">学院简介</a>
+									
+								</li>
+								
+								<li class="sub-item i2-2"><a class="sub-link" href="/2762/list.htm" target="_self">现任领导</a>
+									
+								</li>
+								
+								<li class="sub-item i2-3"><a class="sub-link" href="/2763/list.htm" target="_self">组织机构</a>
+									
+								</li>
+								
+								<li class="sub-item i2-4"><a class="sub-link" href="/2764/list.htm" target="_self">历史沿革</a>
+									
+								</li>
+								
+								<li class="sub-item i2-5"><a class="sub-link" href="/2765/list.htm" target="_self">历任领导</a>
+									
+								</li>
+								
+								<li class="sub-item i2-6"><a class="sub-link" href="/2766/list.htm" target="_self">学术委员会</a>
+									
+								</li>
+								
+								<li class="sub-item i2-7"><a class="sub-link" href="/2767/list.htm" target="_self">职称评定委员会</a>
+									
+								</li>
+								
+								<li class="sub-item i2-8"><a class="sub-link" href="/2768/list.htm" target="_self">教学指导委员会</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i3"> <a class="menu-link" href="/2769/list.htm" target="_self">师资队伍</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i3-1"><a class="sub-link" href="/2770/list.htm" target="_self">师资情况简介</a>
+									
+								</li>
+								
+								<li class="sub-item i3-2"><a class="sub-link" href="/2771/list.htm" target="_self">名誉、客座教授</a>
+									
+								</li>
+								
+								<li class="sub-item i3-3"><a class="sub-link" href="/2772/list.htm" target="_self">招聘信息</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4"><a class="sub-link" href="/2773/list.htm" target="_self">教师信息</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i3-4-1"><a class="sub-link" href="/2774/list.htm" target="_self">管理机构</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-2"><a class="sub-link" href="/2775/list.htm" target="_self">通信工程系(101系)</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-3"><a class="sub-link" href="/2776/list.htm" target="_self">信息工程系(102系)</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-4"><a class="sub-link" href="/2777/list.htm" target="_self">广播电视系（103系）</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-5"><a class="sub-link" href="/2778/list.htm" target="_self">通信原理教学中心(104中心)</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-6"><a class="sub-link" href="/2779/list.htm" target="_self">信号与信息处理教学中心(105中心)</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-7"><a class="sub-link" href="/2780/list.htm" target="_self">信息与通信工程实验教学中心（106中心）</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-8"><a class="sub-link" href="/2781/list.htm" target="_self">通信技术研究所（107系）</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-9"><a class="sub-link" href="/2782/list.htm" target="_self">信号处理与传输研究院（108系）</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-10"><a class="sub-link" href="/2783/list.htm" target="_self">彼得.格林贝格尔研究中心（109中心）</a>
+									
+								</li>
+								
+								<li class="sub-item i3-4-11"><a class="sub-link" href="/2784/list.htm" target="_self">网络基因工程研究所（110系）</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i3-5"><a class="sub-link" href="/2785/list.htm" target="_self">规章制度与办事流程</a>
+									
+								</li>
+								
+								<li class="sub-item i3-6"><a class="sub-link" href="/2786/list.htm" target="_self">各类人才计划入选者</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i4"> <a class="menu-link" href="/2787/list.htm" target="_self">学科建设</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i4-1"><a class="sub-link" href="/2788/list.htm" target="_self">重点学科</a>
+									
+								</li>
+								
+								<li class="sub-item i4-2"><a class="sub-link" href="/2789/list.htm" target="_self">重点实验室</a>
+									
+								</li>
+								
+								<li class="sub-item i4-3"><a class="sub-link" href="/2790/list.htm" target="_self">博士点</a>
+									
+								</li>
+								
+								<li class="sub-item i4-4"><a class="sub-link" href="/2791/list.htm" target="_self">硕士点</a>
+									
+								</li>
+								
+								<li class="sub-item i4-5"><a class="sub-link" href="/2792/list.htm" target="_self">研究生导师</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i4-5-1"><a class="sub-link" href="/2793/list.htm" target="_self">博士生导师</a>
+									
+								</li>
+								
+								<li class="sub-item i4-5-2"><a class="sub-link" href="/2797/list.htm" target="_self">硕士生导师</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i4-6"><a class="sub-link" href="/2798/list.htm" target="_self">学科带头人</a>
+									
+								</li>
+								
+								<li class="sub-item i4-7"><a class="sub-link" href="/2799/list.htm" target="_self">产学研基地</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i5"> <a class="menu-link" href="/2800/list.htm" target="_self">教学教务</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i5-1"><a class="sub-link" href="/2801/list.htm" target="_self">专业介绍</a>
+									
+								</li>
+								
+								<li class="sub-item i5-2"><a class="sub-link" href="/2802/list.htm" target="_self">教学动态</a>
+									
+								</li>
+								
+								<li class="sub-item i5-3"><a class="sub-link" href="/2803/list.htm" target="_self">教学成果</a>
+									
+								</li>
+								
+								<li class="sub-item i5-4"><a class="sub-link" href="/2804/list.htm" target="_self">本科实践性教学</a>
+									
+								</li>
+								
+								<li class="sub-item i5-5"><a class="sub-link" href="/2805/list.htm" target="_self">研究生教学动态</a>
+									
+								</li>
+								
+								<li class="sub-item i5-6"><a class="sub-link" href="/2806/list.htm" target="_self">研究生课程</a>
+									
+								</li>
+								
+								<li class="sub-item i5-7"><a class="sub-link" href="/2807/list.htm" target="_self">文件下载</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i5-7-1"><a class="sub-link" href="/2808/list.htm" target="_self">教学教务</a>
+									
+								</li>
+								
+								<li class="sub-item i5-7-2"><a class="sub-link" href="/2809/list.htm" target="_self">实践教育</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i5-8"><a class="sub-link" href="/2810/list.htm" target="_self">规章制度与办事流程</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i6"> <a class="menu-link" href="/2811/list.htm" target="_self">科研实验</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i6-1"><a class="sub-link" href="/2812/list.htm" target="_self">科研实验平台</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i6-1-1"><a class="sub-link" href="http://10.5.42.15" target="_self">国家级信息与通信工程实验教学示范中心</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-2"><a class="sub-link" href="http://bwcsn.njupt.edu.cn/" target="_self">教育部宽带无线通信与传感网技术重点实验室</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-3"><a class="sub-link" href="http://wicom.njupt.edu.cn/" target="_self">江苏省无线通信重点实验室</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-4"><a class="sub-link" href="http://www.ipic.njupt.edu.cn/" target="_self">江苏省图像处理与图像传输重点实验室</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-5"><a class="sub-link" href="http://www.ctie.njupt.edu.cn/ita/" target="_self">江苏省融合通信技术实践教育中心</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-6"><a class="sub-link" href="http://ctielab.njupt.edu.cn/" target="_self">江苏省通信与信息处理实验教学示范中心</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-7"><a class="sub-link" href="http://pgrc.njupt.edu.cn/" target="_self">Peter Grünberg研究中心</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-8"><a class="sub-link" href="/2820/list.htm" target="_self">通信技术研究所</a>
+									
+								</li>
+								
+								<li class="sub-item i6-1-9"><a class="sub-link" href="/2821/list.htm" target="_self">信号处理与传输研究院</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i6-2"><a class="sub-link" href="/2822/list.htm" target="_self">科研方向</a>
+									
+								</li>
+								
+								<li class="sub-item i6-3"><a class="sub-link" href="/2823/list.htm" target="_self">科研成果</a>
+									
+								</li>
+								
+								<li class="sub-item i6-4"><a class="sub-link" href="/2824/list.htm" target="_self">科研实验动态</a>
+									
+								</li>
+								
+								<li class="sub-item i6-5"><a class="sub-link" href="/2825/list.htm" target="_self">规章制度</a>
+									
+								</li>
+								
+								<li class="sub-item i6-6"><a class="sub-link" href="/2826/list.htm" target="_self">办事流程</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i7"> <a class="menu-link" href="/2827/list.htm" target="_self">学术交流</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i7-1"><a class="sub-link" href="/2828/list.htm" target="_self">学术活动</a>
+									
+								</li>
+								
+								<li class="sub-item i7-2"><a class="sub-link" href="/2829/list.htm" target="_self">学术会议</a>
+									
+								</li>
+								
+								<li class="sub-item i7-3"><a class="sub-link" href="/2830/list.htm" target="_blank">ESI专栏</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i8"> <a class="menu-link" href="/2831/list.htm" target="_self">党群天地</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i8-1"><a class="sub-link" href="/2832/list.htm" target="_self">党委概况</a>
+									
+								</li>
+								
+								<li class="sub-item i8-2"><a class="sub-link" href="/2833/list.htm" target="_self">规章制度</a>
+									
+								</li>
+								
+								<li class="sub-item i8-3"><a class="sub-link" href="/2834/list.htm" target="_self">党务活动</a>
+									
+								</li>
+								
+								<li class="sub-item i8-4"><a class="sub-link" href="/2835/list.htm" target="_self">工会概况</a>
+									
+								</li>
+								
+								<li class="sub-item i8-5"><a class="sub-link" href="/2836/list.htm" target="_self">工会活动</a>
+									
+								</li>
+								
+								<li class="sub-item i8-6"><a class="sub-link" href="/2837/list.htm" target="_self">学习园地</a>
+									
+								</li>
+								
+								<li class="sub-item i8-7"><a class="sub-link" href="/2838/list.htm" target="_self">创先争优</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i8-7-1"><a class="sub-link" href="/2839/list.htm" target="_self">支部承诺书</a>
+									
+								</li>
+								
+								<li class="sub-item i8-7-2"><a class="sub-link" href="/2840/list.htm" target="_self">党员承诺书</a>
+									
+								</li>
+								
+								<li class="sub-item i8-7-3"><a class="sub-link" href="/2841/list.htm" target="_self">先进事迹</a>
+									
+								</li>
+								
+								<li class="sub-item i8-7-4"><a class="sub-link" href="/2842/list.htm" target="_self">他山之石</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i8-8"><a class="sub-link" href="/2843/list.htm" target="_self">专题活动</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i8-8-1"><a class="sub-link" href="/2844/list.htm" target="_self">深入学习实践科学发展观</a>
+									
+								</li>
+								
+								<li class="sub-item i8-8-2"><a class="sub-link" href="/2845/list.htm" target="_self">建党90周年专栏</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i8-9"><a class="sub-link" href="/2846/list.htm" target="_self">活动照片</a>
+									
+								</li>
+								
+								<li class="sub-item i8-10"><a class="sub-link" href="/2847/list.htm" target="_self">党的群众路线教育实践活动</a>
+									
+								</li>
+								
+								<li class="sub-item i8-11"><a class="sub-link" href="/2848/list.htm" target="_self">“三严三实”专题教育专栏</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i8-11-1"><a class="sub-link" href="/2849/list.htm" target="_self">教育要求</a>
+									
+								</li>
+								
+								<li class="sub-item i8-11-2"><a class="sub-link" href="/2850/list.htm" target="_self">学习资料</a>
+									
+								</li>
+								
+								<li class="sub-item i8-11-3"><a class="sub-link" href="/2851/list.htm" target="_self">专题党课</a>
+									
+								</li>
+								
+								<li class="sub-item i8-11-4"><a class="sub-link" href="/2852/list.htm" target="_self">教育动态</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+								<li class="sub-item i8-12"><a class="sub-link" href="/2853/list.htm" target="_self">“两学一做”学习教育专栏</a>
+									
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i8-12-1"><a class="sub-link" href="/2854/list.htm" target="_self">教育要求</a>
+									
+								</li>
+								
+								<li class="sub-item i8-12-2"><a class="sub-link" href="/2855/list.htm" target="_self">学习资料</a>
+									
+								</li>
+								
+								<li class="sub-item i8-12-3"><a class="sub-link" href="/2856/list.htm" target="_self">专题党课</a>
+									
+								</li>
+								
+								<li class="sub-item i8-12-4"><a class="sub-link" href="/2857/list.htm" target="_self">教育动态</a>
+									
+								</li>
+								
+								<li class="sub-item i8-12-5"><a class="sub-link" href="/2858/list.htm" target="_self">不忘初心，走好新的长征路</a>
+									
+								</li>
+								
+								<li class="sub-item i8-12-6"><a class="sub-link" href="/2859/list.htm" target="_self">我身边的优秀党员</a>
+									
+								</li>
+								
+							</ul>
+							
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i9"> <a class="menu-link" href="/2860/list.htm" target="_self">学生工作</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i9-1"><a class="sub-link" href="/2861/list.htm" target="_self">学生活动</a>
+									
+								</li>
+								
+								<li class="sub-item i9-2"><a class="sub-link" href="/2862/list.htm" target="_self">党建工作</a>
+									
+								</li>
+								
+								<li class="sub-item i9-3"><a class="sub-link" href="/2863/list.htm" target="_self">研究生之家</a>
+									
+								</li>
+								
+								<li class="sub-item i9-4"><a class="sub-link" href="/2864/list.htm" target="_self">招生就业</a>
+									
+								</li>
+								
+								<li class="sub-item i9-5"><a class="sub-link" href="/2865/list.htm" target="_self">奖助学金</a>
+									
+								</li>
+								
+								<li class="sub-item i9-6"><a class="sub-link" href="/2866/list.htm" target="_self">创新竞赛</a>
+									
+								</li>
+								
+								<li class="sub-item i9-7"><a class="sub-link" href="/2867/list.htm" target="_self">规章制度与办事流程</a>
+									
+								</li>
+								
+								<li class="sub-item i9-8"><a class="sub-link" href="/myjxylxjxj/list.htm" target="_self">苗亚杰校友旅行奖学金</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i10"> <a class="menu-link" href="/2868/list.htm" target="_self">关工委</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i10-1"><a class="sub-link" href="/2869/list.htm" target="_self">机构设置</a>
+									
+								</li>
+								
+								<li class="sub-item i10-2"><a class="sub-link" href="/2870/list.htm" target="_self">文件规章</a>
+									
+								</li>
+								
+								<li class="sub-item i10-3"><a class="sub-link" href="/2871/list.htm" target="_self">工作动态</a>
+									
+								</li>
+								
+								<li class="sub-item i10-4"><a class="sub-link" href="/2872/list.htm" target="_self">关工采风</a>
+									
+								</li>
+								
+								<li class="sub-item i10-5"><a class="sub-link" href="/2873/list.htm" target="_self">友情链接</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i11"> <a class="menu-link" href="/2874/list.htm" target="_self">校友之家</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i11-1"><a class="sub-link" href="/2875/list.htm" target="_self">校友活动</a>
+									
+								</li>
+								
+								<li class="sub-item i11-2"><a class="sub-link" href="/2876/list.htm" target="_self">校友成就</a>
+									
+								</li>
+								
+								<li class="sub-item i11-3"><a class="sub-link" href="/2877/list.htm" target="_self">校友基金会</a>
+									
+								</li>
+								
+								<li class="sub-item i11-4"><a class="sub-link" href="/2878/list.htm" target="_self">校友捐赠</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i12"> <a class="menu-link" href="/2879/list.htm" target="_self">校企合作</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu clearfix">
+								
+								<li class="sub-item i12-1"><a class="sub-link" href="/2880/list.htm" target="_self">校企活动</a>
+									
+								</li>
+								
+								<li class="sub-item i12-2"><a class="sub-link" href="/2881/list.htm" target="_self">培训动态</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+					</ul>
+					
+				
+1a5
+
+		    </div>
+		</div>
+    </div>
+</div>
+
+<!--aside导航-->
+<div class="wp-navi-aside" id="wp-navi-aside">
+	<div class="aside-inner">
+		<div class="navi-aside-wrap"></div>
+	</div>
+	<div class="navi-aside-mask"></div>
+</div>
+<!--End||nav-->
+
+<!--大图开始-->
+<div class="wrapper mbanner" id="mbanner">
+	<div class="inner clearfix">
+		<div class="banner" frag="面板3">
+			<div frag="窗口3">
+				
+20e6
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div id="topw3" class="imgscroll4_top" style="width:1190px;height:100%;overflow:hidden;">
+    <table id="tabw3" border="0" cellpadding="0" cellspacing="0" bgcolor="#313131">
+        <tr>
+            <td id="beginw3">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="imgscroll2_tpl " >
+                    <tr class=" " >
+                        <td nowrap="nowrap" class=" imgscroll2_td " valign="top" >
+                            <div>
+                                <a target="_blank" href="/2018/0528/c2888a128419/page.htm" title="通信与信息工程学院研究生会换届选举顺利落幕" > 	
+                                    <span class=" imgscroll2_img " >
+                                        <img alt="通信与信息工程学院研究生会换届..." src="/_upload/article/images/9d/07/97966abf45f784422a0f56cc8cef/9f299f6b-369d-4d52-9832-15490dc38767_s.png" width="320px" height="200px" >
+                                    </span>
+                                </a>        
+                            </div>
+                            <div>
+                                <a target="_blank" href="/2018/0528/c2888a128419/page.htm" title="通信与信息工程学院研究生会换届选举顺利落幕" >
+                                    <span style="color:#e5e5e5" ><br>
+                                          通信与信息工程学院研究生会换届选举顺利落幕<br><br>
+                                    </span>
+                                </a>
+                            </div>
+                        </td><td nowrap="nowrap" class=" imgscroll2_td " valign="top" >
+                            <div>
+                                <a target="_blank" href="/2018/0528/c2888a128418/page.htm" title="通信学院在校本科生篮球院系杯比赛中夺冠" > 	
+                                    <span class=" imgscroll2_img " >
+                                        <img alt="通信学院在校本科生篮球院系杯比..." src="/_upload/article/images/f4/d6/c3c43e944a21bb40048126eed699/26c37315-99ed-4fa1-9ec3-76eabc19fe21_s.png" width="320px" height="200px" >
+                                    </span>
+                                </a>        
+                            </div>
+                            <div>
+                                <a target="_blank" href="/2018/0528/c2888a128418/page.htm" title="通信学院在校本科生篮球院系杯比赛中夺冠" >
+                                    <span style="color:#e5e5e5" ><br>
+                                          通信学院在校本科生篮球院系杯比赛中夺冠<br><br>
+                                    </span>
+                                </a>
+                            </div>
+                        </td><td nowrap="nowrap" class=" imgscroll2_td " valign="top" >
+                            <div>
+                                <a target="_blank" href="/2018/0526/c2888a128267/page.htm" title="周亮教授荣获IEEE多媒体通信领域最佳论文奖" > 	
+                                    <span class=" imgscroll2_img " >
+                                        <img alt="周亮教授荣获IEEE多媒体通信..." src="/_upload/article/images/69/43/9d7156e440a887572cbcdd41d645/725496fc-774c-4fc1-898d-a759487ad5b8_s.png" width="320px" height="200px" >
+                                    </span>
+                                </a>        
+                            </div>
+                            <div>
+                                <a target="_blank" href="/2018/0526/c2888a128267/page.htm" title="周亮教授荣获IEEE多媒体通信领域最佳论文奖" >
+                                    <span style="color:#e5e5e5" ><br>
+                                          周亮教授荣获IEEE多媒体通信领域最佳论文奖<br><br>
+                                    </span>
+                                </a>
+                            </div>
+                        </td><td nowrap="nowrap" class=" imgscroll2_td " valign="top" >
+                            <div>
+                                <a target="_blank" href="/2018/0523/c2888a128065/page.htm" title="通信学院在校本科生乒乓球院系杯比赛中荣获季军" > 	
+                                    <span class=" imgscroll2_img " >
+                                        <img alt="通信学院在校本科生乒乓球院系杯..." src="/_upload/article/images/8b/6b/065a417441e991986b6b98ba4c7e/e61ab825-ea00-40e1-b063-42868fdaf5f3_s.png" width="320px" height="200px" >
+                                    </span>
+                                </a>        
+                            </div>
+                            <div>
+                                <a target="_blank" href="/2018/0523/c2888a128065/page.htm" title="通信学院在校本科生乒乓球院系杯比赛中荣获季军" >
+                                    <span style="color:#e5e5e5" ><br>
+                                          通信学院在校本科生乒乓球院系杯比赛中荣获季军<br><br>
+                                    </span>
+                                </a>
+                            </div>
+                        </td><td nowrap="nowrap" class=" imgscroll2_td " valign="top" >
+                            <div>
+                                <a target="_blank" href="/2018/0521/c2888a127939/page.htm" title="通信学院在校本科生第四届排球联赛中问鼎王座" > 	
+                                    <span class=" imgscroll2_img " >
+                                        <img alt="通信学院在校本科生第四届排球联..." src="/_upload/article/images/d5/32/9a9a054545cc8eb9795e25256087/6d1d7ec3-5bd2-4d96-b154-7e892601149d_s.png" width="320px" height="200px" >
+                                    </span>
+                                </a>        
+                            </div>
+                            <div>
+                                <a target="_blank" href="/2018/0521/c2888a127939/page.htm" title="通信学院在校本科生第四届排球联赛中问鼎王座" >
+                                    <span style="color:#e5e5e5" ><br>
+                                          通信学院在校本科生第四届排球联赛中问鼎王座<br><br>
+                                    </span>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td id="endw3"></td>
+        </tr>
+    </table>
+</div>
+
+<script language="javascript">
+    var topw3 = document.getElementById("topw3");
+    var beginw3 = document.getElementById("beginw3");
+    var endw3 = document.getElementById("endw3");
+    var tabw3 = document.getElementById("tabw3");
+    //复制内容
+    endw3.innerHTML = beginw3.innerHTML;
+    //调整table的宽度
+    tabw3.style.width = topw3.offsetWidth * 2;
+    //循环函数
+    function marqueew3() {
+        if (endw3.offsetWidth - topw3.scrollLeft <= 0) {
+            topw3.scrollLeft -= beginw3.offsetWidth;
+        } else {
+            topw3.scrollLeft += 1;
+        }
+    }
+    //定时器
+    var mymarw3 = setInterval(marqueew3, 50);
+    //鼠标移入
+    topw3.onmouseover = function() {
+        clearInterval(mymarw3);
+    };
+    //鼠标移出
+    topw3.onmouseout = function() {
+        mymarw3 = setInterval(marqueew3, 50);
+    };
+</script>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+264
+
+			</div>
+		</div>
+	</div>
+</div>
+<!--//大图结束-->
+
+<!--Start||content-->
+<div class="wrapper content" id="container">
+	<div class="inner clearfix">
+
+  	<div class="mod2 clearfix"> 
+    	<div class="ml" frag="面板10">
+			<div class="post post1 post-10 mbox2" frag="窗口10">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">学院新闻</span></h3>
+					<div class="more_btn" frag="按钮" type="更多"><a href="/2889/list.htm" class="w10_more"><img src='/_upload/site/1/style/9993/more_01.gif' border='0'/></a></div>
+				</div>
+				<div class="con">
+					
+99e
+
+						<ul class="news_list clearfix">
+							
+							<li class="news n1 clearfix">
+								<span class="news_title"><a href='/2018/0528/c2889a128419/page.htm' target='_blank' title='通信与信息工程学院研究生会换届选举顺利落幕'>通信与信息工程学院研究生会换届选举顺利落幕</a></span>
+								<span class="news_meta">2018-05-28</span>
+							</li>
+							
+							<li class="news n2 clearfix">
+								<span class="news_title"><a href='/2018/0528/c2889a128418/page.htm' target='_blank' title='通信学院在校本科生篮球院系杯比赛中夺冠'>通信学院在校本科生篮球院系杯比赛中夺冠</a></span>
+								<span class="news_meta">2018-05-28</span>
+							</li>
+							
+							<li class="news n3 clearfix">
+								<span class="news_title"><a href='/2018/0526/c2889a128267/page.htm' target='_blank' title='周亮教授荣获IEEE多媒体通信领域最佳论文奖'>周亮教授荣获IEEE多媒体通信领域最佳论文奖</a></span>
+								<span class="news_meta">2018-05-26</span>
+							</li>
+							
+							<li class="news n4 clearfix">
+								<span class="news_title"><a href='/2018/0523/c2889a128065/page.htm' target='_blank' title='通信学院在校本科生乒乓球院系杯比赛中荣获季军'>通信学院在校本科生乒乓球院系杯比赛中荣获季军</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n5 clearfix">
+								<span class="news_title"><a href='/2018/0523/c2889a128063/page.htm' target='_blank' title='通院心协举办心理书籍线上借阅活动'>通院心协举办心理书籍线上借阅活动</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n6 clearfix">
+								<span class="news_title"><a href='/2018/0523/c2889a128051/page.htm' target='_blank' title='我校Hikmet Sari教授竞选IEEE通信协会主席'>我校Hikmet Sari教授竞选IEEE通信协会主席</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n7 clearfix">
+								<span class="news_title"><a href='/2018/0521/c2889a127939/page.htm' target='_blank' title='通信学院在校本科生第四届排球联赛中问鼎王座'>通信学院在校本科生第四届排球联赛中问鼎王座</a></span>
+								<span class="news_meta">2018-05-21</span>
+							</li>
+							
+						</ul>
+					
+1d2
+
+				</div>
+			</div>
+
+       
+        </div>
+
+    	<div class="mc" frag="面板11">
+			<div class="post post1 post-21 mbox2" frag="窗口11">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">通知公告</span></h3>
+					<div class="more_btn" frag="按钮" type="更多"><a href="/2890/list.htm" class="w11_more"><img src='/_upload/site/1/style/9993/more_01.gif' border='0'/></a></div>
+				</div>
+				<div class="con">
+					
+9f9
+
+						<ul class="news_list clearfix">
+							
+							<li class="news n1 clearfix">
+								<span class="news_title"><a href='/2018/0523/c2890a128052/page.htm' target='_blank' title='关于2018年端午节放假的通知'>关于2018年端午节放假的通知</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n2 clearfix">
+								<span class="news_title"><a href='/2018/0523/c2890a128050/page.htm' target='_blank' title='关于2018年拟录取研究生党团组织关系转移、户口迁移事宜的说明'>关于2018年拟录取研究生党团组织关系转移、户口迁移事宜的说明</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n3 clearfix">
+								<span class="news_title"><a href='/2018/0518/c2890a127834/page.htm' target='_blank' title='通信与信息工程学院关于推荐申报2016-2017年度南京邮电大学“三育人”先进个人的公示'>通信与信息工程学院关于推荐申报2016-2017年度南京邮电大学“三...</a></span>
+								<span class="news_meta">2018-05-18</span>
+							</li>
+							
+							<li class="news n4 clearfix">
+								<span class="news_title"><a href='/2018/0515/c2890a127506/page.htm' target='_blank' title='学院党政联席会会议信息2018年第10期'>学院党政联席会会议信息2018年第10期</a></span>
+								<span class="news_meta">2018-05-15</span>
+							</li>
+							
+							<li class="news n5 clearfix">
+								<span class="news_title"><a href='/2018/0515/c2890a127505/page.htm' target='_blank' title='学院党政联席会会议信息2018年第9期'>学院党政联席会会议信息2018年第9期</a></span>
+								<span class="news_meta">2018-05-15</span>
+							</li>
+							
+							<li class="news n6 clearfix">
+								<span class="news_title"><a href='/2018/0507/c2890a126750/page.htm' target='_blank' title='信息与通信工程一级学科2018年招收博士研究生复试录取工作细则'>信息与通信工程一级学科2018年招收博士研究生复试录取工作细则</a></span>
+								<span class="news_meta">2018-05-07</span>
+							</li>
+							
+							<li class="news n7 clearfix">
+								<span class="news_title"><a href='/2018/0503/c2890a126532/page.htm' target='_blank' title='关于2018年“五四”青年节放假的通知'>关于2018年“五四”青年节放假的通知</a></span>
+								<span class="news_meta">2018-05-03</span>
+							</li>
+							
+						</ul>
+					
+1ef
+
+				</div>
+			</div>
+
+		</div>
+		
+    </div>
+
+
+  	<div class="mod clearfix"> 
+    	<div class="ml" frag="面板20">
+			<div class="post post-10 mbox" frag="窗口20">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">党政快线</span></h3>
+					<div class="more_btn" frag="按钮" type="更多"><a href="/2906/list.htm" class="w20_more"><img src='/_upload/site/1/style/10000/more_08.gif' border='0'/></a></div>
+				</div>
+				<div class="con">
+					
+8c9
+
+						<ul class="news_list clearfix">
+							
+							<li class="news n1 clearfix">
+								<span class="news_title"><a href='/2018/0515/c2906a127506/page.htm' target='_blank' title='学院党政联席会会议信息2018年第10期'>学院党政联席会会议信息2018年第10期</a></span>
+								<span class="news_meta">2018-05-15</span>
+							</li>
+							
+							<li class="news n2 clearfix">
+								<span class="news_title"><a href='/2018/0515/c2906a127505/page.htm' target='_blank' title='学院党政联席会会议信息2018年第9期'>学院党政联席会会议信息2018年第9期</a></span>
+								<span class="news_meta">2018-05-15</span>
+							</li>
+							
+							<li class="news n3 clearfix">
+								<span class="news_title"><a href='/2018/0515/c2906a127504/page.htm' target='_blank' title='校纪委书记李子全带队到通信与信息工程学院进行专项检查调研'>校纪委书记李子全带队到通信与信息工程学院进行...</a></span>
+								<span class="news_meta">2018-05-15</span>
+							</li>
+							
+							<li class="news n4 clearfix">
+								<span class="news_title"><a href='/2018/0514/c2906a127418/page.htm' target='_blank' title='通信与信息工程学院团委荣获“江苏省五四红旗团委”称号'>通信与信息工程学院团委荣获“江苏省五四红旗团...</a></span>
+								<span class="news_meta">2018-05-14</span>
+							</li>
+							
+							<li class="news n5 clearfix">
+								<span class="news_title"><a href='/2018/0507/c2906a126749/page.htm' target='_blank' title='通信学院在“五四”评优表彰暨“不忘初心 青春唱响”大合唱比赛中获佳绩'>通信学院在“五四”评优表彰暨“不忘初心 青春...</a></span>
+								<span class="news_meta">2018-05-07</span>
+							</li>
+							
+							<li class="news n6 clearfix">
+								<span class="news_title"><a href='/2018/0427/c2906a126166/page.htm' target='_blank' title='通信与信息工程学院党委组织教工党员集体观看十九大献礼影片《邹碧华》'>通信与信息工程学院党委组织教工党员集体观看十...</a></span>
+								<span class="news_meta">2018-04-27</span>
+							</li>
+							
+						</ul>
+					
+18d
+
+				</div>
+			</div>
+			
+			<div class="post post-11 mbox" frag="窗口21">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">科研学术</span></h3>
+					<div class="more_btn" frag="按钮" type="更多"><a href="/2908/list.htm" class="w21_more"><img src='/_upload/site/1/style/10000/more_08.gif' border='0'/></a></div>
+				</div>
+				<div class="con">
+					
+89e
+
+						<ul class="news_list clearfix">
+							
+							<li class="news n1 clearfix">
+								<span class="news_title"><a href='/2018/0526/c2908a128267/page.htm' target='_blank' title='周亮教授荣获IEEE多媒体通信领域最佳论文奖'>周亮教授荣获IEEE多媒体通信领域最佳论文奖</a></span>
+								<span class="news_meta">2018-05-26</span>
+							</li>
+							
+							<li class="news n2 clearfix">
+								<span class="news_title"><a href='/2018/0523/c2908a128051/page.htm' target='_blank' title='我校Hikmet Sari教授竞选IEEE通信协会主席'>我校Hikmet Sari教授竞选IEEE通信协会主席</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n3 clearfix">
+								<span class="news_title"><a href='/2018/0514/c2908a127419/page.htm' target='_blank' title='哈工大（深圳）高林博士来我院讲学'>哈工大（深圳）高林博士来我院讲学</a></span>
+								<span class="news_meta">2018-05-14</span>
+							</li>
+							
+							<li class="news n4 clearfix">
+								<span class="news_title"><a href='/2018/0514/c2908a127417/page.htm' target='_blank' title='80后南邮教授：以“工匠精神”摘人生桂冠'>80后南邮教授：以“工匠精神”摘人生桂冠</a></span>
+								<span class="news_meta">2018-05-14</span>
+							</li>
+							
+							<li class="news n5 clearfix">
+								<span class="news_title"><a href='/2018/0504/c2908a126657/page.htm' target='_blank' title='国家微纳器件与信息系统创新引智基地研究成果被Semiconductor Today专题报道'>国家微纳器件与信息系统创新引智基地研究成果被...</a></span>
+								<span class="news_meta">2018-05-04</span>
+							</li>
+							
+							<li class="news n6 clearfix">
+								<span class="news_title"><a href='/2018/0424/c2908a125741/page.htm' target='_blank' title='管理情绪,缓解压力,做情绪的主人——通信学院承办“科学与人文”大讲堂第四十四期活动'>管理情绪,缓解压力,做情绪的主人——通信学院承办...</a></span>
+								<span class="news_meta">2018-04-24</span>
+							</li>
+							
+						</ul>
+					
+1ca
+
+				</div>
+			</div>
+       
+        </div>
+
+    	<div class="mc" frag="面板30">
+			<div class="post post-21 mbox" frag="窗口31">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">教学动态</span></h3>
+					<div class="more_btn" frag="按钮" type="更多"><a href="/2907/list.htm" class="w31_more"><img src='/_upload/site/1/style/10000/more_08.gif' border='0'/></a></div>
+				</div>
+				<div class="con">
+					
+8e9
+
+						<ul class="news_list clearfix">
+							
+							<li class="news n1 clearfix">
+								<span class="news_title"><a href='/2018/0524/c2907a128133/page.htm' target='_blank' title='院教发〔2018〕3号 关于开展通信工程专业教学档案专项检查工作的通知'>院教发〔2018〕3号 关于开展通信工程专业教学档...</a></span>
+								<span class="news_meta">2018-05-24</span>
+							</li>
+							
+							<li class="news n2 clearfix">
+								<span class="news_title"><a href='/2018/0524/c2907a128118/page.htm' target='_blank' title='【转】关于2018年端午节放假期间教学安排的通知'>【转】关于2018年端午节放假期间教学安排的通知</a></span>
+								<span class="news_meta">2018-05-24</span>
+							</li>
+							
+							<li class="news n3 clearfix">
+								<span class="news_title"><a href='/2018/0517/c2907a127766/page.htm' target='_blank' title='2018年通信与信息工程学院转专业面试名单及安排'>2018年通信与信息工程学院转专业面试名单及安排</a></span>
+								<span class="news_meta">2018-05-17</span>
+							</li>
+							
+							<li class="news n4 clearfix">
+								<span class="news_title"><a href='/2018/0509/c2907a126919/page.htm' target='_blank' title='通信与信息工程学院进行通信工程毕业设计与实习档案检查'>通信与信息工程学院进行通信工程毕业设计与实习...</a></span>
+								<span class="news_meta">2018-05-09</span>
+							</li>
+							
+							<li class="news n5 clearfix">
+								<span class="news_title"><a href='/2018/0426/c2907a125965/page.htm' target='_blank' title='通信与信息工程学院召开2018届本科毕业设计中期检查评审会'>通信与信息工程学院召开2018届本科毕业设计中期...</a></span>
+								<span class="news_meta">2018-04-26</span>
+							</li>
+							
+							<li class="news n6 clearfix">
+								<span class="news_title"><a href='/2018/0411/c2907a124819/page.htm' target='_blank' title='【转】关于2018年“五一”劳动节期间相关教学活动安排的通知'>【转】关于2018年“五一”劳动节期间相关教学活...</a></span>
+								<span class="news_meta">2018-04-11</span>
+							</li>
+							
+						</ul>
+					
+19e
+
+				</div>
+			</div>
+			<div class="post post-21 mbox" frag="窗口32">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题" title="学生工作"> 学生工作</span></h3>
+					<div class="more_btn" frag="按钮" type="更多"><a href="/xshd/list.htm" class="w32_more"><img src='/_upload/site/1/style/10000/more_08.gif' border='0'/></a></div>
+				</div>
+				<div class="con">
+					
+860
+
+						<ul class="news_list clearfix">
+							
+							<li class="news n1 clearfix">
+								<span class="news_title"><a href='/2018/0528/c9906a128419/page.htm' target='_blank' title='通信与信息工程学院研究生会换届选举顺利落幕'>通信与信息工程学院研究生会换届选举顺利落幕</a></span>
+								<span class="news_meta">2018-05-28</span>
+							</li>
+							
+							<li class="news n2 clearfix">
+								<span class="news_title"><a href='/2018/0528/c9906a128418/page.htm' target='_blank' title='通信学院在校本科生篮球院系杯比赛中夺冠'>通信学院在校本科生篮球院系杯比赛中夺冠</a></span>
+								<span class="news_meta">2018-05-28</span>
+							</li>
+							
+							<li class="news n3 clearfix">
+								<span class="news_title"><a href='/2018/0523/c9906a128065/page.htm' target='_blank' title='通信学院在校本科生乒乓球院系杯比赛中荣获季军'>通信学院在校本科生乒乓球院系杯比赛中荣获季军</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n4 clearfix">
+								<span class="news_title"><a href='/2018/0523/c9906a128063/page.htm' target='_blank' title='通院心协举办心理书籍线上借阅活动'>通院心协举办心理书籍线上借阅活动</a></span>
+								<span class="news_meta">2018-05-23</span>
+							</li>
+							
+							<li class="news n5 clearfix">
+								<span class="news_title"><a href='/2018/0521/c9906a127939/page.htm' target='_blank' title='通信学院在校本科生第四届排球联赛中问鼎王座'>通信学院在校本科生第四届排球联赛中问鼎王座</a></span>
+								<span class="news_meta">2018-05-21</span>
+							</li>
+							
+							<li class="news n6 clearfix">
+								<span class="news_title"><a href='/2018/0521/c9906a127938/page.htm' target='_blank' title='通信学院在校本科生羽毛球院系杯比赛卫冕成功'>通信学院在校本科生羽毛球院系杯比赛卫冕成功</a></span>
+								<span class="news_meta">2018-05-21</span>
+							</li>
+							
+						</ul>
+					
+106
+
+				</div>
+			</div>
+		</div>
+		<div class="mr" frag="面板40">
+			<div class="post post-31 mbox" frag="窗口41">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">快速通道</span></h3>
+</div>
+				<div class="con">
+					
+9f6
+<div id="wp_nav_w41"> 
+
+ 
+<ul class="wp_nav" data-nav-config="{drop_v: 'down', drop_w: 'right', dir: 'y', opacity_main: '-1', opacity_sub: '-1', dWidth: '0'}">
+      
+     <li class="nav-item i1 "> 
+         <a href="mailto:yangyi@njupt.edu.cn" title="学院党委信箱" target="_blank"><span class="item-name">学院党委信箱</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i2 "> 
+         <a href="http://202.119.225.34" title="南邮教务管理系统" target="_blank"><span class="item-name">南邮教务管理系统</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i3 "> 
+         <a href="http://ids6.njupt.edu.cn/authserver/login?service=http%3A%2F%2Fmy.njupt.edu.cn%2F" title="智慧校园" target="_blank"><span class="item-name">智慧校园</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i4 "> 
+         <a href="http://mail.njupt.edu.cn/" title="电子邮件" target="_blank"><span class="item-name">电子邮件</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i5 "> 
+         <a href="http://ctie.njupt.edu.cn/2807/list.htm" title="文件下载" target="_blank"><span class="item-name">文件下载</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i6 "> 
+         <a href="http://jwc.njupt.edu.cn/2015/1229/c1528a46789/page.htm" title="查看校历" target="_blank"><span class="item-name">查看校历</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i7 "> 
+         <a href="http://www.njupt.edu.cn/148/list.htm" title="作息时间" target="_blank"><span class="item-name">作息时间</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i8 "> 
+         <a href="http://www.njupt.edu.cn/147/list.htm" title="班车时刻" target="_blank"><span class="item-name">班车时刻</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i9 "> 
+         <a href="http://bysj.njupt.edu.cn/" title="毕设智能管理系统" target="_blank"><span class="item-name">毕设智能管理系统</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i10 "> 
+         <a href="http://lib.njupt.edu.cn/" title="图书馆藏" target="_blank"><span class="item-name">图书馆藏</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+</ul> 
+ 
+ 
+ </div>
+d8
+
+				</div>
+			</div>
+			<div class="post post-31 mbox" frag="窗口42">
+				<div class="tt">
+					<h3 class="tit"><span class="title" frag="标题">专题链接</span></h3>
+</div>
+				<div class="con">
+					
+3e6
+<div class="articlecontent news_list clearfix " >
+    
+        
+            
+                <p><br /></p><p style="line-height:2.5em;"><a href="http://ctie.njupt.edu.cn/2853/list.htm" target="_blank" sudyfile-attr="{'title':'只支持选中一个链接时生效'}"><img src="/_upload/article/images/da/5d/b428f3f84549be7889ab10dd2f2e/f50ec2b4-c4e9-4f53-98f6-467051e427e6.jpg" /></a><br /></p><p style="line-height:2.5em;"><a href="http://ctie.njupt.edu.cn/jgsz/list.htm" target="_blank" sudyfile-attr="{'title':'只支持选中一个链接时生效'}"><img src="/_upload/article/images/eb/fa/6a9d294d49538e7b46e44c8c5423/612f2f51-5204-4e4d-be58-e872af80326f.gif" /></a><br /></p><p style="line-height:2.5em;"><a href="http://202.119.224.70/_s74/main.psp" target="_blank" sudyfile-attr="{'title':'只支持选中一个链接时生效'}"><img src="/_upload/article/images/eb/fa/6a9d294d49538e7b46e44c8c5423/1deb7829-bab8-4779-bd00-484018ded025.gif" /></a><br /></p>
+            
+        
+    
+</div>
+e0
+
+				</div>
+			</div>
+</div>
+    </div>
+  	<div class="mod3 clearfix"> 
+    	<div class="ml" frag="面板50">
+			<div class="post post-10 mbox3" frag="窗口50">
+               <div class="con">您是第
+			        
+53
+<img border="0" src="/_visitcountdisplay?siteId=47&type=1&dispMode=1&statMode=1" />
+bb
+位访问者
+				</div>
+			</div>
+    	</div>
+
+    	<div class="mc" frag="面板51">
+			<div class="post post-21 mbox3" frag="窗口51">
+              <div class="con">
+			       
+355
+<form method="POST" action="/_web/search/doSearch.do?locale=zh_CN&request_locale=zh_CN&_p=YXM9NDcmdD05MjgmZD0yNTMwJnA9MSZtPVNOJg__" target="_blank" onsubmit="if ($('#keyword').val() === '请输入关键字') { $('#keyword').val(''); }">
+    <div class="wp_search">
+        <table>
+            <tr>
+                <td height="25px">
+                    <input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }"
+                           onblur="if (this.value === '') { this.value = '请输入关键字'; }" />
+                </td>
+                <td>
+                    <input name="btnsearch" class="search" type="submit" value=""/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+14e
+
+				</div>
+			</div>
+			</div>
+    	<div class="mc2" frag="面板54">
+			<div class="post post-21 mbox3" frag="窗口54">
+              <div class="con">
+			       
+				</div>
+			</div>
+			</div>
+		<div class="mr" frag="面板52">
+			<div class="post post-31 mbox3" frag="窗口52">
+             <div class="con">
+			  
+6a1
+<select style="width:200px;" onChange="w52_openLink(this)" class="w52_openLink"> 
+<option value="" selected>校外链接</option> 
+<option value="" >————————————</option> 
+<option value="http://cxzy.people.com.cn/" >创先争优网</option> 
+<option value="http://www.tsinghua.edu.cn/publish/newthu/index.html" >清华大学</option> 
+<option value="http://www.bupt.edu.cn/" >北京邮电大学</option> 
+<option value="http://www.seu.edu.cn/]" >东南大学</option> 
+<option value="http://www.uestc.edu.cn/]" >成都电子科技大学</option> 
+<option value="http://www.moe.gov.cn/]" >教育部</option> 
+<option value="http://www.most.gov.cn/]" >科技部</option> 
+<option value="http://www.miit.gov.cn/]" >工业和信息化部</option> 
+<option value="http://www.nsfc.gov.cn/]" >国自基金委员会</option> 
+<option value="http://jyt.jiangsu.gov.cn/]" >江苏省教育厅</option> 
+<option value="http://www.jsxiaoguo.com/]" >校果网（江苏高校科技网）</option> 
+<option value="http://www.jstd.gov.cn/]" >江苏省科技厅</option> 
+<option value="http://jssjxw.jiangsu.gov.cn/]" >江苏省经济和信息化委员会</option> 
+<option value="http://www.njkj.gov.cn/]" >南京市科技局</option> 
+<option value="http://www.njgl.gov.cn/]" >鼓楼高校科技园</option> 
+<option value="http://www.mindspeed.com.cn/]" >福建敏讯信息技术有限公司</option> 
+</select> 
+<script language=javascript> 
+      function w52_openLink(obj) { 
+          var v = obj.value; 
+          if (v != "") { 
+              window.open(v); 
+              obj.blur(); 
+          } 
+          obj.selectedIndex = 0; 
+      } 
+</script>
+a3
+
+				</div>
+			</div>
+		</div>
+		<div class="mr2" frag="面板53">
+			<div class="post post-31 mbox3" frag="窗口53">
+              <div class="con">
+			  
+430
+<select style="width:200px;" onChange="w53_openLink(this)" class="w53_openLink"> 
+<option value="" selected>校内链接</option> 
+<option value="" >————————————</option> 
+<option value="http://ctie.njupt.edu.cn/2830/list.htm" >ESI专栏</option> 
+<option value="http://www.njupt.edu.cn/" >南邮主页</option> 
+<option value="http://jwc.njupt.edu.cn/" >教务处</option> 
+<option value="http://kyy.njupt.edu.cn/" >科研院</option> 
+<option value="http://rsc.njupt.edu.cn/" >人事处</option> 
+<option value="http://pg.njupt.edu.cn/" >研究生部</option> 
+<option value="http://youth.njupt.edu.cn/" >团委</option> 
+<option value="http://pgrc.njupt.edu.cn/" >Peter Grünberg研究中心</option> 
+<option value="http://bbs.njupt.edu.cn/" >紫金飞鸿</option> 
+</select> 
+<script language=javascript> 
+      function w53_openLink(obj) { 
+          var v = obj.value; 
+          if (v != "") { 
+              window.open(v); 
+              obj.blur(); 
+          } 
+          obj.selectedIndex = 0; 
+      } 
+</script>
+40e
+
+				</div>
+			</div>
+		</div>
+
+    </div>
+  </div>
+  </div>
+</div>
+<!--End||content-->
+
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+	<div class="inner">
+		<div class="foot" >
+			<div  portletmode="simpleSiteAttri">
+				<div >版权所有 © 南京邮电大学 通信与信息工程学院<br><br>地址：南京市新模范马路66号&nbsp; &nbsp; &nbsp; 邮编：210003&nbsp; &nbsp; &nbsp;电话：025-83492420&nbsp; &nbsp; &nbsp;传真：025-83492420&nbsp; &nbsp; &nbsp; 电子邮箱：ici-yb@njupt.edu.cn</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||footer-->
+</body>
+<script type="text/javascript" src="/_upload/tpl/03/a0/928/template928/js/app.js"></script>
+<script type="text/javascript">
+$(function(){
+	// 初始化SDAPP
+	new SDAPP({
+		'focus':{
+			zWidth:1000,
+			zHeight:366,
+			pagination: true
+		},
+		"menu":{
+			type:"slide"
+		}
+	});
+});
+</script>
+</html>
+ <image src="/_visitcount?siteId=47&type=1&columnId=2758" style="display:none" width="0" height="0"></image>
+0
+

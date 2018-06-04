@@ -12,6 +12,8 @@ static int Max_Spiders = 8;
 
 
 
+//std::set<URL>::iterator iqwe = MayBe.begin();
+
 struct URL
 {
 	char protocol[100];

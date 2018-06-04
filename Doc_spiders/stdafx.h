@@ -11,5 +11,7 @@
 #include <tchar.h>
 #include<direct.h>
 #include<io.h>  
+#include <thread>
+#include <mutex>
 
 // TODO:  在此处引用程序需要的其他头文件

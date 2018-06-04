@@ -8,7 +8,7 @@ std::set<URL> Catched;
 std::vector<std::string> Limit_Host;
 std::set<Info> MayBe;
 std::vector<std::string> Search;
-int qwe = 10;
+std::mutex Signal;
 
 
 enum Parse_State
@@ -37,60 +37,54 @@ URL Parse_url(char *herf)
 	char *p, *pp;
 	p = pp = herf;
 	while (*p != '\0'){
-		p++;
 		if (*p == '/'){
-			if (*(p - 1) == ':' && !*url.protocol){
-				strncpy_s(url.protocol, pp, p - pp - 1); //PROTOCOL
-				url.protocol[p - pp - 1] = '\0';
-				pp = p;
-			}
-			else if (*(p - 1) == '/'){
-				pp = p;
-			}
-			else if (!*url.host){
-				char *temp = p;
-				while (temp>pp && *temp != ':'){
-					temp--;
-					if (*temp<'0' || *temp>'9'){
-						temp--;
-					}
-				}
-				if (temp > pp){
-					char Port[100];
-					strncpy_s(Port, temp + 1, p - temp - 1);
-					Port[p - temp - 1] = '\0';
-					url.port = atol(Port);
-					if (url.port == 443){
-						url.port = 80;
-					}
-					strncpy_s(url.host, pp + 1, temp - pp - 1);     //HOST
-					url.host[temp - pp - 1] = '\0';
+			if (!*url.protocol){
+				if (*(p + 1) == '/'){
+					strncpy_s(url.protocol, pp, p - pp - 1); //PROTOCOL
+					url.protocol[p - pp - 1] = '\0';
+					p++;
+					pp = p + 1;
 				}
 				else{
-					strncpy_s(url.host, pp + 1, p - pp - 1);
-					url.host[p - pp - 1] = '\0';
-					if (*(p - 1) == ':'){
-						url.host[p - pp - 2] = '\0';
-					}
+					sprintf_s(url.protocol, "%s", "http");
 				}
+			}
+			else if (!*url.host){
+				strncpy_s(url.host, pp, p - pp);
+				url.host[p - pp] = '\0';  //host+port
 				pp = p;
 			}
 		}
-		else if (*(pp - 1) == '/' && *(p + 1) == '\0'){
-			*(p + 1) = '/';
-			*(p + 2) = '\0';
+		p++;
+	}
+	/*if (p - pp > 20){
+		int a = 100;
+	}*/
+	strncpy_s(url.path, pp, p - pp);  //PATH
+	url.path[p - pp] = '\0';
+	p = pp = url.host;
+	while (*p != ':'&& *p != '\0'){
+		p++;
+	}
+	if (*p != '\0'){
+		char Port[100];
+		memset(Port, 0, 100);
+		strncpy_s(Port, p + 1, strlen(url.host) - 1 - (p - url.host));
+		url.port = atol(Port);
+		*p = '\0';
+		if (url.port == 443){
+			url.port = 80;
 		}
 	}
-	strncpy_s(url.path, pp , p - pp);  //PATH
 	return url;
 }
 
 void URL::operator=(const URL &u) {
-	strcpy_s(this->protocol, u.protocol);
-	strcpy_s(this->host, u.host);
-	strcpy_s(this->path, u.path);
+	memset(this, 0, sizeof(URL));
+	strcpy_s(this->protocol,100, u.protocol);
+	strcpy_s(this->host, 200, u.host);
+	strcpy_s(this->path, MAX_LENGTH, u.path);
 	this->port = u.port;
-	qwe++;
 }
 
 bool URL::operator<(const URL &u) const{
@@ -313,7 +307,9 @@ bool Spider::Is_Limit_Host(const char *host){
 
 bool Spider::Is_Want_Con(const char *content){
 	//为空表示ALL
+	
 	if (Search.empty()){
+		
 		return TRUE;
 	}
 	std::string temp = content;
@@ -329,8 +325,8 @@ void Spider::Start_Parse(char *p){
 	memset(url, 0, MAX_LENGTH);
 	memset(content, 0, MAX_LENGTH);
 	char *pp = p;
-	char attri[MAX_LENGTH] = "0";
-	char tag[MAX_LENGTH] = "0";
+	char attri[MAX_LENGTH] = "\0";
+	char tag[MAX_LENGTH] = "\0";
 	//char *attri,*url;
 	while (*p != '\0'){
 		switch (State)
@@ -410,6 +406,22 @@ void Spider::Start_Parse(char *p){
 						content[0] = '\0';
 					}
 					URL temp = Parse_url(url);
+
+					std::string w_except[10] = { ".pdf", ".mp3", ".xls" };
+					std::string mytest = url;
+					for (int i = 0; i < 10; i++){
+						if (w_except[i].empty()){
+							break;
+						}
+						if (mytest.find(w_except[i]) != std::string::npos){
+							*(temp.protocol) = '\0';
+							break;
+						}
+					}
+
+					if (!temp.protocol){
+						break;
+					}
 					//合法host,将url加入待爬取队列
 					if (Is_Limit_Host(temp.host)){
 						Ucatch.push_back(temp);
