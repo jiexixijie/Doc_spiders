@@ -407,7 +407,7 @@ void Spider::Start_Parse(char *p){
 					}
 					URL temp = Parse_url(url);
 
-					std::string w_except[10] = { ".pdf", ".mp3", ".xls" };
+					std::string w_except[10] = { "pdf", "mp3", "xls", "zip", "doc", "docx","jpg"};
 					std::string mytest = url;
 					for (int i = 0; i < 10; i++){
 						if (w_except[i].empty()){
@@ -415,12 +415,9 @@ void Spider::Start_Parse(char *p){
 						}
 						if (mytest.find(w_except[i]) != std::string::npos){
 							*(temp.protocol) = '\0';
+							State = End_Tag_Tail;
 							break;
 						}
-					}
-
-					if (!temp.protocol){
-						break;
 					}
 					//合法host,将url加入待爬取队列
 					if (Is_Limit_Host(temp.host)){
@@ -526,17 +523,24 @@ int Spider::Parse_Html(const char *filename){
 	}
 	fseek(fp, 0, SEEK_END);
 	ULONG flen = ftell(fp);
+	if (flen > 1024*100)
+	{
+		fclose(fp);
+		return -1;
+	}
 	char *buffer = new char[flen+1];
 	memset(buffer, 0, flen + 1);
 	fseek(fp, 0, SEEK_SET);
 	fread(buffer, flen, 1, fp);
+	fclose(fp);
 	if (int res = Get_Info(buffer,flen) > 300){
 		//fclose(fp);
 		//return res;
+		closesocket(fd);
+		return res;
 	}
 	char *p = buffer;
 	Start_Parse(p);
-	fclose(fp);
 	closesocket(fd);
 	//std::set<URL>::iterator iter;
 	//for (iter = Ucatch.begin(); iter != Ucatch.end(); iter++){

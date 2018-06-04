@@ -14,6 +14,7 @@
 
 #pragma comment(lib,"ws2_32.lib")
 
+
 extern std::vector<URL> Ucatch;
 extern std::set<URL> Catched;
 extern std::vector<std::string> Limit_Host;
@@ -62,13 +63,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 	//Only One
 
-
-	//Spider sp1;
-	//Catch_it(sp1, filename);
-
 	WSACleanup();
+	if (MayBe.empty()){
+		printf("Maybe you should change another url/n");
+		return 0;
+	}
 	std::set<Info>::iterator iter = MayBe.begin();
-
 	FILE *final = NULL;
 	fopen_s(&final, "result.txt", "w+");
 	if (final == NULL){
