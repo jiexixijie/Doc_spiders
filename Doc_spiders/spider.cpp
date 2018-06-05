@@ -3,6 +3,7 @@
 #include <assert.h>
 #include <fstream>
 
+
 std::vector<URL> Ucatch;
 std::set<URL> Catched;
 std::vector<std::string> Limit_Host;
@@ -11,9 +12,11 @@ std::vector<std::string> Search;
 std::mutex Signal;
 
 
-enum Parse_State
-{
-	Init, Content, Tag, Start_Tag_Head, Start_Tag_Tail, End_Tag_Head, End_Tag_Tail, Doc, Before_Attri, Attri, Head_Value, Value,To_Tail, Parse_Error
+enum Res_State{
+	Res_Code,Res_Type
+}RState;
+enum Parse_State{
+	Init=2, Content, Tag, Start_Tag_Head, Start_Tag_Tail, End_Tag_Head, End_Tag_Tail, Doc, Before_Attri, Attri, Head_Value, Value,To_Tail, Parse_Error
 };
 Parse_State State = Init;
 
@@ -57,9 +60,6 @@ URL Parse_url(char *herf)
 		}
 		p++;
 	}
-	/*if (p - pp > 20){
-		int a = 100;
-	}*/
 	strncpy_s(url.path, pp, p - pp);  //PATH
 	url.path[p - pp] = '\0';
 	p = pp = url.host;
@@ -76,15 +76,15 @@ URL Parse_url(char *herf)
 			url.port = 80;
 		}
 	}
+	if (url.port == 0){
+		int a=0;
+	}
 	return url;
 }
 
 void URL::operator=(const URL &u) {
-	memset(this, 0, sizeof(URL));
-	strcpy_s(this->protocol,100, u.protocol);
-	strcpy_s(this->host, 200, u.host);
-	strcpy_s(this->path, MAX_LENGTH, u.path);
-	this->port = u.port;
+	memcpy_s(this, sizeof(URL), &u, sizeof(URL));
+	int a = 0;
 }
 
 bool URL::operator<(const URL &u) const{
@@ -272,21 +272,68 @@ int Spider::Get_Html(const URL url,const char *filename){
 int Spider::Get_Info(char *buffer,ULONG flen){
 	//HTTP/1.1 200 OK
 	//get response
-	char res[4] = "0";
-	strncpy_s(res, buffer + 9, 3);
-	//get encode
-	//char *p = buffer;
-	//while (*p != '<'){
-	//	if (*p == '\n'){
-	//		char temp[] = "Content-Type";
-	//		char temp2[13];
-	//		strncpy_s(temp2, p + 1, 12);
-	//		if (strcmp(temp2,temp)){
-	//		}
-	//	}
-	//}
-	ConvertUtf8ToGBK(buffer, flen + 1);
-	return atoi(res);
+	/*char res[4] = "0";
+	strncpy_s(res, buffer + 9, 3);*/
+	char *p, *pp;
+	std::string Type, Code;
+	p = pp = buffer;
+	RState = Res_Code;
+	while (*p != '<' && *p != '\0'){
+		switch (RState)
+		{
+		case Res_Code:
+			if (*p == '\r'&&*(p + 1) == '\n'){
+				char temp[4];
+				strncpy_s(temp, pp + 9, 3);
+				Type = "HTTP";
+				Code = temp;
+				Res_Headers.insert(make_pair(Type, Code));
+				pp = p + 2;
+				RState = Res_Type;
+			}
+			break;
+		case Res_Type:
+			//Content-Type: text/html
+			if (*p == ':'&&*(p + 1) == ' '){
+				char *temp = new char[p - pp + 1];
+				memcpy(temp, pp, p - pp);
+				temp[p - pp] = '\0';
+				Type = temp;
+				pp = p + 2;
+			}
+			else if (*p == '\r'&&*(p + 1) == '\n'){
+				char *temp = new char[p - pp + 1];
+				memcpy(temp, pp, p - pp);
+				temp[p - pp] = '\0';
+				Code = temp;
+				pp = p + 2;
+				Res_Headers.insert(make_pair(Type, Code));
+				if (*pp == '\r'&&*(pp + 1) == '\n'){
+					//end:/r/n/r/n
+					p = pp + 2;
+					break;
+				}
+			}
+			break;
+		default:
+			break;
+		}
+		p++;
+	}
+	//pdf,mp3,xls ....
+	if (Res_Headers["Content-Type"].find("application") != std::string::npos){
+		printf("This Html maybe pdf/mp3/xls...\n");
+		return -2;
+	}
+	if (Res_Headers["Content-Encoding"] != "gzip"){
+		ConvertUtf8ToGBK(buffer, flen + 1);
+	}
+	//判断大小是否超过100K
+	if (atoi(Res_Headers["Content-Length"].c_str()) > 100 * 1024 * 1024){
+		printf("Can't receive so large Html!\n");
+		return -1;
+	}
+	return atoi(Res_Headers["HTTP"].c_str());
 	//默认为UTF-8
 }
 
@@ -307,11 +354,6 @@ bool Spider::Is_Limit_Host(const char *host){
 
 bool Spider::Is_Want_Con(const char *content){
 	//为空表示ALL
-	
-	if (Search.empty()){
-		
-		return TRUE;
-	}
 	std::string temp = content;
 	for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
 		if (temp.find(*iter) != std::string::npos){
@@ -328,6 +370,7 @@ void Spider::Start_Parse(char *p){
 	char attri[MAX_LENGTH] = "\0";
 	char tag[MAX_LENGTH] = "\0";
 	//char *attri,*url;
+	State = Init;
 	while (*p != '\0'){
 		switch (State)
 		{
@@ -404,21 +447,23 @@ void Spider::Start_Parse(char *p){
 					if (content[0] == 'H'){
 						//content is null
 						content[0] = '\0';
+						State = End_Tag_Tail;
+						break;
 					}
 					URL temp = Parse_url(url);
-
-					std::string w_except[10] = { "pdf", "mp3", "xls", "zip", "doc", "docx","jpg"};
-					std::string mytest = url;
-					for (int i = 0; i < 10; i++){
-						if (w_except[i].empty()){
-							break;
-						}
-						if (mytest.find(w_except[i]) != std::string::npos){
-							*(temp.protocol) = '\0';
-							State = End_Tag_Tail;
-							break;
-						}
-					}
+					//std::string w_except[10] = { /*"pdf",*/ "mp3", "xls", "zip", "doc", "docx","jpg"};
+					//std::string mytest = url;
+					//for (int i = 0; i < 10; i++){
+					//	if (w_except[i].empty()){
+					//		break;
+					//	}
+					//	if (mytest.find(w_except[i]) != std::string::npos){
+					//		*(temp.protocol) = '\0';
+					//		State = End_Tag_Tail;
+					//		break;
+					//	}
+					//}
+					Signal.lock();
 					//合法host,将url加入待爬取队列
 					if (Is_Limit_Host(temp.host)){
 						Ucatch.push_back(temp);
@@ -426,12 +471,14 @@ void Spider::Start_Parse(char *p){
 						if (Is_Want_Con(content)){
 							//contetn为空
 							Info want;
+							memset(&want, 0, sizeof(0));
 							want.Url = temp;
 							want.Content = content;
 							Print_Content(want);
 							MayBe.insert(want);
 						}
 					}
+					Signal.unlock();
 					//printf("%s:%s\n", url,content);
 					//add in map
 					memset(url, 0, MAX_LENGTH);

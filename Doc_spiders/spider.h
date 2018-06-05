@@ -4,11 +4,11 @@
 #include <Windows.h>
 #include <set>
 #include <vector>
+#include <map>
 #include <algorithm>
 
 #define MAX_URL_LENGTH (8192-1)
 #define MAX_LENGTH 8192
-static int Max_Spiders = 8;
 
 
 
@@ -57,6 +57,7 @@ private:
 	SOCKADDR_IN addr;
 	char url[MAX_LENGTH] ;
 	char content[MAX_LENGTH];
+	std::map<std::string, std::string> Res_Headers;
 	//return response
 	int Get_Info(char *buffer, ULONG flen);
 	void Start_Parse(char *p);
