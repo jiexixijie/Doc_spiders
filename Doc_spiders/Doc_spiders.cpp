@@ -11,9 +11,9 @@
 #include <conio.h>  
 
 #include "spider.h"
+#include "visualize.h"
 
 #pragma comment(lib,"ws2_32.lib")
-
 
 extern std::vector<URL> Ucatch;
 extern std::set<URL> Catched;
@@ -24,6 +24,7 @@ extern std::mutex Signal;
 
 int MAX_Spiders;
 
+void show();
 void Add_Search_Info(const std::string(&limit)[MAX_LENGTH], const std::string(&Keyword)[MAX_LENGTH]);
 void Catch_it(Spider spider, const std::string filename);
 bool Want_exit();
@@ -34,7 +35,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//add in it 
 	MAX_Spiders = 8;
 	std::string limit[MAX_LENGTH] = { "blog" };
-	std::string Keyword[MAX_LENGTH] = { "Java" };
+	std::string Keyword[MAX_LENGTH] = { "程序员" };
+	show();
 	//add info
 	Add_Search_Info(limit, Keyword);
 	WSADATA wsdata;
@@ -43,7 +45,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		return 0;
 	}
 	//http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go
-	char url[MAX_URL_LENGTH + 1] ="http://blog.jobbole.com/70907/";
+	char url[MAX_URL_LENGTH + 1] ="http://blog.jobbole.com/";
 	URL Url;
 	Url = Parse_url(url);
 	Ucatch.push_back(Url);
@@ -77,26 +79,13 @@ int _tmain(int argc, _TCHAR* argv[])
 		system("pause");
 		return 0;
 	}
-	std::set<Info>::iterator iter;
-	FILE *final = NULL;
-	fopen_s(&final, "result.txt", "w+");
-	if (final == NULL){
-		printf("write result.txt error\n");
-		system("pause");
-		return 0;
-	}
-	printf("ALL THE MAYBE HERF:\n");
-	for (iter = MayBe.begin(); iter != MayBe.end(); iter++){
-		char temp[MAX_LENGTH] ;
-		sprintf_s(temp, "%s://%s:%s:%s\n", (*iter).Url.protocol, (*iter).Url.host, (*iter).Url.path, (*iter).Content.c_str());
-		fwrite(temp, strlen(temp), 1, final);
-		printf("%s://%s:%s:%s\n", (*iter).Url.protocol, (*iter).Url.host, (*iter).Url.path, (*iter).Content.c_str());
-	}
-	fclose(final);
-
-
+	visualize();
 	system("pause");
 	return 0;
+}
+
+void show(){
+	//... add console show
 }
 
 void Catch_it(Spider spider, const std::string filename){
@@ -121,11 +110,11 @@ void Catch_it(Spider spider, const std::string filename){
 		printf("Catching %s://%s%s\n", Url.protocol, Url.host, Url.path);
 		spider.Url = Url;
 		if (spider.conn2Peer(Url.host, Url.port) == SOCKET_ERROR){
-			printf("Connect %s://%s:%s error\n", Url.protocol, Url.host, Url.path);
+			printf("Connect %s://%s%s error\n", Url.protocol, Url.host, Url.path);
 			continue;
 		}
 		if (spider.Get_Html(Url, filename.c_str())<=0){
-			printf("Fail to get %s://%s:%s\n",Url.protocol, Url.host, Url.path);
+			printf("Fail to get %s://%s%s\n",Url.protocol, Url.host, Url.path);
 			continue;
 		}
 		spider.Parse_Html(filename.c_str());
@@ -137,6 +126,7 @@ void Catch_it(Spider spider, const std::string filename){
 		}
 	}
 	MAX_Spiders--;
+	remove(filename.c_str());
 	printf("Spiders %c Finished\n",filename.c_str()[12]);
 	if (!MAX_Spiders){
 		want_exit = TRUE;

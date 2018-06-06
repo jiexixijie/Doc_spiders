@@ -570,7 +570,7 @@ int Spider::Parse_Html(const char *filename){
 	}
 	fseek(fp, 0, SEEK_END);
 	ULONG flen = ftell(fp);
-	if (flen > 1024*100)
+	if (flen > 1024*100*100)
 	{
 		fclose(fp);
 		return -1;

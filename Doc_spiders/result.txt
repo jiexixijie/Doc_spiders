@@ -1,4 +1,0 @@
-http://blog.jobbole.com:/110427/?utm_source=blog.jobbole.com&utm_medium=relatedPosts:阿里巴巴 Java 开发手册评述
-http://blog.jobbole.com:/111422/?utm_source=blog.jobbole.com&utm_medium=relatedPosts:Kotlin 喧嚣过后，谈谈 Java 程序员未来的出路
-http://blog.jobbole.com:/111468/?utm_source=blog.jobbole.com&utm_medium=relatedPosts:拯救 Java Code Style 强迫症
-http://blog.jobbole.com:/tag/javascript/:Javascript
