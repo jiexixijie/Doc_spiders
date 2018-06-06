@@ -1,161 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Doc Spider</title>
-	<meta charset="gb2312">
-	<meta name="viewport" content="width=device-width, initial-size=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datetimepicker.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/daterangepicker-bs3.css">
-	<style type="text/css">
-		.table-hover>tbody>tr:hover{background-color:#f5f5f5;color: #111;}
-		.nav-tabs{border: none;}
-	</style>
-	<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/moment.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.fr.js"></script>
-	<script type="text/javascript" src="assets/js/daterangepicker.js"></script>
-</head>
-<body>
-	<nav class="navbar navbar-inverse" role="navigation" style="border-radius: 0;">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Doc Spider</a>
-			</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Settings</a></li>
-					<li><a href="#">Control</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							Help <b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="https://www.baidu.com">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li class="divider"></li>
-							<li><a href="#">4</a></li>
-							<li class="divider"></li>
-							<li><a href="#">5</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12" style="background-color: #eee; margin: 0 0 20px 0; border-radius: 10px;">
-				<h1>A Simple Doc Spider Application</h1>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-
-			<ul id="myTab" class="nav nav-tabs">
-				<li class="active col-md-4" style="padding: 0;">
-					<button type="button" class="btn btn-primary btn-lg btn-block" style="border-radius: 10px 0 0 0;"><!-- <a href="#scan" data-toggle="tab" style="color: #fff; display: block;"> -->SETTINGS
-					<!-- </a> --></button>
-				</li>
-
-				<li class="col-md-8" style="padding: 0;">
-					<button type="button" class="btn btn-primary btn-lg btn-block" style="border-radius: 0 10px 0 0;"><a href="http://127.0.0.1:8888/index.php?show=true" style="color: #fff; display: block;">SCAN RESULTS</a>
-					</button>
-				</li>
-			</ul>
-
-			<div id="myTabContent" class="tab-content">
-
-				<div class="tab-pane fade in active" id="scan">
-					<div class="col-md-4" style="height: 70vh; min-height: 543px; margin-bottom: 25px; background-color: #eee; border-bottom-left-radius: 10px;">
-
-						<br><br>
-						<form role="form">
-							<div class="form-group">
-								<label for="name" class="input-lg">Set up your target</label>
-								<select class="form-control input-lg">
-									<option>HOST</option>
-									<option>RANGE</option>
-								</select>
-								<br>
-								<input type="text" class="form-control input-lg" placeholder="Please enter a host or a range">
-								<br>
-								<button type="submit" class="btn btn-warning btn-block btn-lg">START</button>
-							</div>
-						</form>
-
-					</div>
-					<div class="col-md-8" style="height: 70vh; min-height: 543px; margin-bottom: 25px; background-color: #333; border-bottom-right-radius: 10px; overflow-y: scroll;">
-						<table class="table table-condensed table-hover" style="color: #ccc; margin-top: 15px;">
-							<thead>
-								<tr>
-									<th style="width: 55px;">Number</th>
-									<th>Website</th>
-									<th>URL</th>
-								</tr>
-						<!--insert here--!>		
-						                                 <
-<tr>
-<td>1</td>
-<td>程序员如何规划职业路线？</td>
-<td><a href = "http://blog.jobbole.com/112048/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/112048/</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td>谈谈程序员的离职和跳槽</td>
-<td><a href = "http://blog.jobbole.com/112809/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/112809/</a></td>
-</tr>
-<tr>
-<td>3</td>
-<td>2018 年，程序员要具备哪些核心竞争力？</td>
-<td><a href = "http://blog.jobbole.com/113525/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/113525/</a></td>
-</tr>
-<tr>
-<td>4</td>
-<td>一个技术大牛对程序员招聘的吐槽和建议</td>
-<td><a href = "http://blog.jobbole.com/113532/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/113532/</a></td>
-</tr>
-<tr>
-<td>5</td>
-<td>为什么程序员找不到工作：4 个恐怖故事</td>
-<td><a href = "http://blog.jobbole.com/113652/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/113652/</a></td>
-</tr>
-<tr>
-<td>6</td>
-<td>谁说国外的程序员过得好？法国政府搞的软件项目，坑出新境界</td>
-<td><a href = "http://blog.jobbole.com/113920/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/113920/</a></td>
-</tr>
-<tr>
-<td>7</td>
-<td>倾听程序员的心声真的很重要</td>
-<td><a href = "http://blog.jobbole.com/114075/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/114075/</a></td>
-</tr>
-<tr>
-<td>8</td>
-<td>北漂程序员边城的幸福生活</td>
-<td><a href = "http://blog.jobbole.com/58486/?utm_source=blog.jobbole.com&utm_medium=relatedPosts" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/58486/?utm_source=blog.jobbole.com&utm_medium=relatedPosts</a></td>
-</tr>
-<tr>
-<td>9</td>
-<td>女程序员</td>
-<td><a href = "http://blog.jobbole.com/tag/%e5%a5%b3%e7%a8%8b%e5%ba%8f%e5%91%98/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/tag/%e5%a5%b3%e7%a8%8b%e5%ba%8f%e5%91%98/</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td>程序员</td>
-<td><a href = "http://blog.jobbole.com/tag/%e7%a8%8b%e5%ba%8f%e5%91%98/" target = "blank" style = "text-decoration: none; color: #ccc;">http://blog.jobbole.com/tag/%e7%a8%8b%e5%ba%8f%e5%91%98/</a></td>
-</tr>
-</thead></table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</body>
-</html>
