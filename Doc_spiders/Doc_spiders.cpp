@@ -24,6 +24,8 @@ extern std::vector<std::string> Search;
 extern std::mutex Signal;
 
 int MAX_Spiders = 8;
+//http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go
+char url[MAX_URL_LENGTH + 1] = "http://blog.jobbole.com/tag/%E8%B6%A3%E6%96%87/";
 
 void show();
 void Add_Search_Info();
@@ -36,28 +38,32 @@ int _tmain(int argc, _TCHAR* argv[])
 	//add in it 
 	Limit_Host.push_back("blog");
 	Search.push_back("程序员");
-	//add info
+	std::string filename;
+	std::thread *threads = new std::thread[MAX_Spiders];
+	//add info and show option
 	show();
+	//start catch
 	WSADATA wsdata;
 	if (WSAStartup(0x0202, &wsdata)!=0){
 		printf("初始化失败\n");
-		return 0;
+		goto _ToEnd;
 	}
-	//http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go
-	char url[MAX_URL_LENGTH + 1] ="http://blog.jobbole.com/";
 	URL Url;
 	Url = Parse_url(url);
 	Ucatch.push_back(Url);
-	std::string filename;
-	std::thread *threads = new std::thread[MAX_Spiders];
 	for (int i = 0; i < MAX_Spiders; i++){
 		Spider sp1;
 		char temp[50];
 		sprintf_s(temp, ".temp/spdier%d.txt", (i + 1));
 		filename = temp;
 		while (!Ucatch.size()){
+			if (want_exit){
+				MAX_Spiders = 0;
+				break;
+			}
 			Sleep(10);
 		}
+		//多线程
 		threads[i] = std::thread(Catch_it, sp1, filename);
 		threads[i].detach();
 	}
@@ -67,31 +73,31 @@ int _tmain(int argc, _TCHAR* argv[])
 		Sleep(10);
 	}
 	printf("Please wait all spiders to stop\n");
-	while (MAX_Spiders)
-	{
+	while (MAX_Spiders > 0){
 		Sleep(100);
 	}
 	WSACleanup();
-
 	if (MayBe.empty()){
 		printf("Maybe you should change another url\n");
-		system("pause");
-		return 0;
+		goto _ToEnd;
 	}
+	//show result in the html
 	visualize();
+_ToEnd:
 	system("pause");
 	return 0;
 }
 
 void show(){
 	//... show option in console
-	printf("Start Catch-----------g:\n");
+	printf("Start Catch-----------g\n");
 	printf("Split key word by \",\"\n");
 	printf("Add Keyword-----------ak:key word\n");
 	printf("Delete Keyword--------dk:key word\n");
 	printf("Add LimitHost---------al:key word\n");
 	printf("Delete LimitHost------dl:key word\n");
 	printf("Change Spiders--------s:4\n");
+	printf("Change StartUrl-------u:url\n");
 	printf("Show Option-----------show\n");
 	Add_Search_Info();
 }
@@ -136,16 +142,14 @@ void Catch_it(Spider spider, const std::string filename){
 	MAX_Spiders--;
 	remove(filename.c_str());
 	printf("Spiders %c Finished\n",filename.c_str()[12]);
-	if (!MAX_Spiders){
-		want_exit = TRUE;
-	}
+	want_exit = TRUE;
 }
 
 void Add_Search_Info(){
 	char Option[MAX_LENGTH];
 	while (true)
 	{
-		std::cin >> Option;
+		std::cin.getline(Option, MAX_LENGTH);
 		char *p, *pp;
 		p = pp = Option;
 		while (*p != ':'&& *p != '\0'){
@@ -158,15 +162,20 @@ void Add_Search_Info(){
 		char temp[5];
 		strncpy_s(temp, pp, p - pp);
 		temp[p - pp] = '\0';
-		if (!strcmp(temp, "g")){
+		if (!strcmp(temp, "g") || !strcmp(temp, "G")){
 			break;
 		}
+		//add keyword
 		else if (!strcmp(temp, "ak")){
 			pp = ++p;
 			while (*(p - 1) != '\0'){
 				if (*p == ','|| *p=='\0'){
 					if (p - pp > 100){
 						printf("key word too long\n");
+						break;
+					}
+					//keyword is Null
+					else if (p == pp){
 						break;
 					}
 					char word[99];
@@ -179,10 +188,11 @@ void Add_Search_Info(){
 			}
 			printf("Search Keyword:");
 			for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
-				printf("%s ", (*iter).c_str());
+				printf("%s  ", (*iter).c_str());
 			}
 			printf("\n");
 		}
+		//delete keyword
 		else if (!strcmp(temp, "dk")){
 			pp = ++p;
 			while (*(p - 1) != '\0'){
@@ -191,21 +201,26 @@ void Add_Search_Info(){
 						printf("key word too long\n");
 						break;
 					}
+					else if (p == pp){
+						break;
+					}
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
 					std::vector<std::string>::iterator iter;
-					iter = find(Search.begin(), (--Search.end()), temp);
-					if (iter != Search.end()){
-						Search.erase(iter);
+					for (iter = Search.begin(); iter != Search.end(); iter++){
+						if (*iter == word){
+							Search.erase(iter);
+							break;
+						}
 					}
 					pp = p + 1;
 				}
 				p++;
 			}
-			printf("\nSearch Keyword:");
+			printf("Search Keyword:");
 			for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
-				printf("%s ", (*iter).c_str());
+				printf("%s  ", (*iter).c_str());
 			}
 			printf("\n");
 		}
@@ -217,6 +232,9 @@ void Add_Search_Info(){
 						printf("key word too long\n");
 						break;
 					}
+					else if (p == pp){
+						break;
+					}
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
@@ -225,10 +243,11 @@ void Add_Search_Info(){
 				}
 				p++;
 			}
-			printf("\nLimit_Host:");
+			printf("Limit_Host:");
 			for (std::vector<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
-				printf("%s ", (*iter).c_str());
+				printf("%s  ", (*iter).c_str());
 			}
+			printf("\n");
 		}
 		else if (!strcmp(temp, "dl")){
 			pp = ++p;
@@ -238,38 +257,57 @@ void Add_Search_Info(){
 						printf("key word too long\n");
 						break;
 					}
+					else if (p == pp){
+						break;
+					}
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
-					std::vector<std::string>::iterator iter;
-					iter = find(Limit_Host.begin(), (--Limit_Host.end()), temp);
-					if (iter != Limit_Host.end()){
-						Limit_Host.erase(iter);
+					for (std::vector<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
+						if (*iter == temp){
+							Limit_Host.erase(iter);
+							break;
+						}
 					}
 					pp = p + 1;
 				}
 				p++;
 			}
-			printf("\nLimit_Host:");
+			printf("Limit_Host:");
 			for (std::vector<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
-				printf("%s ", (*iter).c_str());
+				printf("%s  ", (*iter).c_str());
 			}
+			printf("\n");
 		}
 		else if (!strcmp(temp, "s")){
 			pp = ++p;
-			char number = *p;
-			if (number > '0'&&number < '9'){
-				MAX_Spiders = atoi(&number);
+			std::string temp = p;
+			if (temp.length() > 1 || atoi(temp.c_str())<1 || atoi(temp.c_str())>8){
+				printf("MAX_Spiders is 8\n");
+				break;
+			}
+			else{
+				MAX_Spiders = atoi(temp.c_str());
+				printf("Spiders:%d\n", MAX_Spiders);
+			}
+		}
+		else if (!strcmp(temp, "u")){
+			pp = ++p;
+			std::string temp = pp;
+			if (temp.length() > MAX_LENGTH){
+				printf("url too long\n");
 			}
 			else
 			{
-				printf("MAX_Spiders is 8\n");
+				memset(url, 0, MAX_LENGTH + 1);
+				strcpy_s(url, temp.c_str());
+				printf("url:%s\n", url);
 			}
-			printf("Spiders:%d", MAX_Spiders);
 		}
 		else if (!strcmp(temp, "show")){
-			printf("Spiders:%d", MAX_Spiders);
-			printf("\nLimit_Host:");
+			printf("Start url:%s\n", url);
+			printf("Spiders:%d\n", MAX_Spiders);
+			printf("Limit_Host:");
 			std::vector<std::string>::iterator iter;
 			for (iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
 				printf("%s ", (*iter).c_str());

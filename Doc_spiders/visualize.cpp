@@ -34,6 +34,7 @@ void visualize(){
 		Show_Console();
 		return;
 	}
+	printf("Show result with Html\n");
 	fseek(final, 0, SEEK_END);
 	ULONG flen = ftell(final);
 	char *buffer = new char[flen + 1];

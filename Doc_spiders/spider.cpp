@@ -42,7 +42,7 @@ URL Parse_url(char *herf)
 	while (*p != '\0'){
 		if (*p == '/'){
 			if (!*url.protocol){
-				if (*(p + 1) == '/'){
+				if (*(p + 1) == '/' && (p - pp - 1 < 100)){
 					strncpy_s(url.protocol, pp, p - pp - 1); //PROTOCOL
 					url.protocol[p - pp - 1] = '\0';
 					p++;
@@ -52,13 +52,16 @@ URL Parse_url(char *herf)
 					sprintf_s(url.protocol, "%s", "http");
 				}
 			}
-			else if (!*url.host){
+			else if (!*url.host && (p - pp < 200)){
 				strncpy_s(url.host, pp, p - pp);
 				url.host[p - pp] = '\0';  //host+port
 				pp = p;
 			}
 		}
 		p++;
+	}
+	if (p - pp > MAX_URL_LENGTH){
+		return url;
 	}
 	strncpy_s(url.path, pp, p - pp);  //PATH
 	url.path[p - pp] = '\0';
@@ -69,15 +72,15 @@ URL Parse_url(char *herf)
 	if (*p != '\0'){
 		char Port[100];
 		memset(Port, 0, 100);
-		strncpy_s(Port, p + 1, strlen(url.host) - 1 - (p - url.host));
-		url.port = atol(Port);
-		*p = '\0';
+		int len = strlen(url.host) - 1 - (p - url.host);
+		if (len < 100){
+			strncpy_s(Port, p + 1, len);
+			url.port = atol(Port);
+			*p = '\0';
+		}
 		if (url.port == 443){
 			url.port = 80;
 		}
-	}
-	if (url.port == 0){
-		int a=0;
 	}
 	return url;
 }
@@ -325,15 +328,23 @@ int Spider::Get_Info(char *buffer,ULONG flen){
 		printf("This Html maybe pdf/mp3/xls...\n");
 		return -2;
 	}
+	//是否需要转utf-8
 	if (Res_Headers["Content-Encoding"] != "gzip"){
 		ConvertUtf8ToGBK(buffer, flen + 1);
 	}
-	//判断大小是否超过100K
-	if (atoi(Res_Headers["Content-Length"].c_str()) > 100 * 1024 * 1024){
+	//判断大小是否超过1M
+	if (atoi(Res_Headers["Content-Length"].c_str()) > 1024 * 1024){
 		printf("Can't receive so large Html!\n");
 		return -1;
 	}
-	return atoi(Res_Headers["HTTP"].c_str());
+	int ResCode = atoi(Res_Headers["HTTP"].c_str());
+	if (ResCode > 300){
+		printf("Maybe can't catch,ResCode:%d\n", ResCode);
+	}
+	if (*buffer != '\0'){
+		int a = 0;
+	}
+	return ResCode;
 	//默认为UTF-8
 }
 
@@ -352,11 +363,14 @@ bool Spider::Is_Limit_Host(const char *host){
 	return FALSE;
 }
 
-bool Spider::Is_Want_Con(const char *content){
+bool Spider::Is_Want_Con(std::string content){
 	//为空表示ALL
-	std::string temp = content;
 	for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
-		if (temp.find(*iter) != std::string::npos){
+		/*if (temp.find(*iter) != std::string::npos){
+			return TRUE;
+		}*/
+		std::string keyword = *iter;
+		if (content.find(keyword) != std::string::npos){
 			return TRUE;
 		}
 	}
@@ -450,6 +464,7 @@ void Spider::Start_Parse(char *p){
 						State = End_Tag_Tail;
 						break;
 					}
+					std::string cont = content;
 					URL temp = Parse_url(url);
 					//std::string w_except[10] = { /*"pdf",*/ "mp3", "xls", "zip", "doc", "docx","jpg"};
 					//std::string mytest = url;
@@ -468,7 +483,7 @@ void Spider::Start_Parse(char *p){
 					if (Is_Limit_Host(temp.host)){
 						Ucatch.push_back(temp);
 						//判断content是否为要搜索的内容
-						if (Is_Want_Con(content)){
+						if (Is_Want_Con(cont)){
 							//contetn为空
 							Info want;
 							memset(&want, 0, sizeof(0));
@@ -565,12 +580,13 @@ void Spider::Start_Parse(char *p){
 int Spider::Parse_Html(const char *filename){
 	FILE *fp = NULL;
 	fopen_s(&fp, filename, "rb+");
+	//check fp
 	if (fp == NULL){
 		return -1;
 	}
 	fseek(fp, 0, SEEK_END);
 	ULONG flen = ftell(fp);
-	if (flen > 1024*100*100)
+	if (flen > 1024*1024)
 	{
 		fclose(fp);
 		return -1;
@@ -578,16 +594,32 @@ int Spider::Parse_Html(const char *filename){
 	char *buffer = new char[flen+1];
 	memset(buffer, 0, flen + 1);
 	fseek(fp, 0, SEEK_SET);
-	fread(buffer, flen, 1, fp);
+	//check read
+	if (fread(buffer, flen, 1, fp) == 0){
+		return -1;
+	}
 	fclose(fp);
-	if (int res = Get_Info(buffer,flen) > 300){
+
+
+	if (*buffer != '\0'){
+		int a = 0;
+	}
+
+
+	if(int res = Get_Info(buffer,flen) < 0 ){
 		//fclose(fp);
 		//return res;
 		closesocket(fd);
 		return res;
 	}
+
+
 	char *p = buffer;
-	Start_Parse(p);
+	if (*p != '\0'){
+		int a = 0;
+	}
+
+	Start_Parse(buffer);
 	closesocket(fd);
 	//std::set<URL>::iterator iter;
 	//for (iter = Ucatch.begin(); iter != Ucatch.end(); iter++){
