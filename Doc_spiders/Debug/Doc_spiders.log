@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/6/17 0:10:21。
+﻿生成启动时间为 2018/6/17 12:25:46。
      1>项目“D:\coding\code\Gitcode\Doc_spiders\Doc_spiders\Doc_spiders.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\coding\vs2013\2013\VC\bin\CL.exe /c /I"C:\Program Files\mysql-8.0.11-winx64\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Doc_spiders.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt spider.cpp
@@ -13,4 +13,4 @@
 
 生成成功。
 
-已用时间 00:00:01.80
+已用时间 00:00:02.00

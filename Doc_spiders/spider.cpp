@@ -6,9 +6,9 @@
 
 std::vector<URL> Ucatch;
 std::set<URL> Catched;
-std::vector<std::string> Limit_Host;
+std::set<std::string> Limit_Host;
 std::set<Info> MayBe;
-std::vector<std::string> Search;
+std::set<std::string> Search;
 std::mutex Signal;
 
 
@@ -123,12 +123,10 @@ bool Info::operator<(const Info &info) const{
 
 void ConvertUtf8ToGBK(char *buffer,ULONG len){
 	ULONG wlen = MultiByteToWideChar(CP_UTF8, 0, (LPCSTR)buffer, -1, NULL, 0);
-	wchar_t *wszGBK = new wchar_t[len];
-	memset(wszGBK, 0, len*sizeof(wchar_t));
+	wchar_t *wszGBK = new wchar_t[len + 1];
+	memset(wszGBK, 0, (len + 1)*sizeof(wchar_t));
 	MultiByteToWideChar(CP_UTF8, 0, (LPCSTR)buffer, -1, wszGBK, len);
-	delete[len] buffer;
 	len = WideCharToMultiByte(CP_ACP, 0, wszGBK, -1, NULL, 0, NULL, NULL)+1;
-	buffer = new char[len];
 	memset(buffer, 0, len);
 	WideCharToMultiByte(CP_ACP, 0, wszGBK, -1, buffer, len - 1, NULL, NULL);
 	delete[] wszGBK;
@@ -136,13 +134,10 @@ void ConvertUtf8ToGBK(char *buffer,ULONG len){
 
 void ConvertGBKToUtf8(char *buffer, ULONG len){
 	ULONG wlen = MultiByteToWideChar(CP_ACP, 0, (LPCSTR)buffer, -1, NULL, 0);
-	wchar_t *wsUtf8 = new wchar_t[len];
-	memset(wsUtf8, 0, len*sizeof(wchar_t));
+	wchar_t *wsUtf8 = new wchar_t[len + 1];
+	memset(wsUtf8, 0, (len + 1)*sizeof(wchar_t));
 	MultiByteToWideChar(CP_ACP, 0, (LPCSTR)buffer, -1, wsUtf8, len);
-	delete[len] buffer;
 	len = WideCharToMultiByte(CP_UTF8, 0, wsUtf8, -1, NULL, 0, NULL, NULL) + 1;
-	buffer = new char[len];
-	memset(buffer, 0, len);
 	WideCharToMultiByte(CP_UTF8, 0, wsUtf8, -1, buffer, len - 1, NULL, NULL);
 	delete[] wsUtf8;
 }
@@ -354,7 +349,7 @@ bool Spider::Is_Limit_Host(const char *host){
 		return FALSE;
 	}
 	std::string temp = host;
-	std::vector<std::string>::iterator result;
+	std::set<std::string>::iterator result;
 	for (result = Limit_Host.begin(); result != Limit_Host.end(); result++){
 		if (temp.find(*result) != std::string::npos){
 			return TRUE;
@@ -363,23 +358,25 @@ bool Spider::Is_Limit_Host(const char *host){
 	return FALSE;
 }
 
-bool Spider::Is_Want_Con(std::string content){
+bool Spider::Is_Want_Con(const char *content){
 	//为空表示ALL
-	for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
+	for (std::set<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
 		/*if (temp.find(*iter) != std::string::npos){
 			return TRUE;
 		}*/
+		std::string temp = content;
 		std::string keyword = *iter;
-		if (content.find(keyword) != std::string::npos){
+		if (temp.find(keyword) != std::string::npos){
 			return TRUE;
 		}
 	}
 	return FALSE;
 }
 
-void Spider::Start_Parse(char *p){
+void Spider::Start_Parse(char *buffer){
 	memset(url, 0, MAX_LENGTH);
 	memset(content, 0, MAX_LENGTH);
+	char *p = buffer;
 	char *pp = p;
 	char attri[MAX_LENGTH] = "\0";
 	char tag[MAX_LENGTH] = "\0";
@@ -455,6 +452,8 @@ void Spider::Start_Parse(char *p){
 				if (content[0] != '\0'){
 					if (url[0] != 'h'){
 						char temp[MAX_LENGTH];
+						//防止越界
+						url[MAX_LENGTH] = '\0';
 						strcpy_s(temp, url);
 						sprintf_s(url, "%s://%s%s", Url.protocol, Url.host, temp);
 					}
@@ -483,7 +482,7 @@ void Spider::Start_Parse(char *p){
 					if (Is_Limit_Host(temp.host)){
 						Ucatch.push_back(temp);
 						//判断content是否为要搜索的内容
-						if (Is_Want_Con(cont)){
+						if (Is_Want_Con(cont.c_str())){
 							//contetn为空
 							Info want;
 							memset(&want, 0, sizeof(0));
@@ -591,36 +590,26 @@ int Spider::Parse_Html(const char *filename){
 		fclose(fp);
 		return -1;
 	}
-	char *buffer = new char[flen+1];
+	//避免编码转换空间不够
+	char *buffer = new char[(flen + 1) * 2];
 	memset(buffer, 0, flen + 1);
 	fseek(fp, 0, SEEK_SET);
 	//check read
 	if (fread(buffer, flen, 1, fp) == 0){
+		delete[] buffer;
 		return -1;
 	}
 	fclose(fp);
-
-
-	if (*buffer != '\0'){
-		int a = 0;
-	}
-
-
 	if(int res = Get_Info(buffer,flen) < 0 ){
 		//fclose(fp);
 		//return res;
+		delete[] buffer;
 		closesocket(fd);
 		return res;
 	}
-
-
-	char *p = buffer;
-	if (*p != '\0'){
-		int a = 0;
-	}
-
 	Start_Parse(buffer);
 	closesocket(fd);
+	delete[] buffer;
 	//std::set<URL>::iterator iter;
 	//for (iter = Ucatch.begin(); iter != Ucatch.end(); iter++){
 	//	printf("%s://%s:%s\n", (*iter).protocol, (*iter).host, (*iter).path);

@@ -65,7 +65,7 @@ private:
 	//in the limit host
 	bool Is_Limit_Host(const char *host);
 	//search right content
-	bool Is_Want_Con(std::string cont);
+	bool Is_Want_Con(const char *content);
 };
 
 //is catched url

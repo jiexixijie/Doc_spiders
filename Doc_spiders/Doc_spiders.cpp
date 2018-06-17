@@ -18,9 +18,9 @@
 
 extern std::vector<URL> Ucatch;
 extern std::set<URL> Catched;
-extern std::vector<std::string> Limit_Host;
+extern std::set<std::string> Limit_Host;
 extern std::set<Info> MayBe;
-extern std::vector<std::string> Search;
+extern std::set<std::string> Search;
 extern std::mutex Signal;
 
 int MAX_Spiders = 8;
@@ -36,8 +36,8 @@ bool want_exit = FALSE;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//add in it 
-	Limit_Host.push_back("blog");
-	Search.push_back("程序员");
+	Limit_Host.insert("blog");
+	Search.insert("程序员");
 	std::string filename;
 	std::thread *threads = new std::thread[MAX_Spiders];
 	//add info and show option
@@ -132,7 +132,9 @@ void Catch_it(Spider spider, const std::string filename){
 			continue;
 		}
 		spider.Parse_Html(filename.c_str());
+		Signal.lock();
 		Catched.insert(Url);
+		Signal.unlock();
 		counter++;
 		//break;
 		if (want_exit){
@@ -181,13 +183,13 @@ void Add_Search_Info(){
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
-					Search.push_back(temp);
+					Search.insert(temp);
 					pp = p + 1;
 				}
 				p++;
 			}
 			printf("Search Keyword:");
-			for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
+			for (std::set<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
 				printf("%s  ", (*iter).c_str());
 			}
 			printf("\n");
@@ -207,7 +209,7 @@ void Add_Search_Info(){
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
-					std::vector<std::string>::iterator iter;
+					std::set<std::string>::iterator iter;
 					for (iter = Search.begin(); iter != Search.end(); iter++){
 						if (*iter == word){
 							Search.erase(iter);
@@ -219,7 +221,7 @@ void Add_Search_Info(){
 				p++;
 			}
 			printf("Search Keyword:");
-			for (std::vector<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
+			for (std::set<std::string>::iterator iter = Search.begin(); iter != Search.end(); iter++){
 				printf("%s  ", (*iter).c_str());
 			}
 			printf("\n");
@@ -238,13 +240,13 @@ void Add_Search_Info(){
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
-					Limit_Host.push_back(temp);
+					Limit_Host.insert(temp);
 					pp = p + 1;
 				}
 				p++;
 			}
 			printf("Limit_Host:");
-			for (std::vector<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
+			for (std::set<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
 				printf("%s  ", (*iter).c_str());
 			}
 			printf("\n");
@@ -263,7 +265,7 @@ void Add_Search_Info(){
 					char word[99];
 					strncpy_s(word, pp, p - pp);
 					std::string temp = word;
-					for (std::vector<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
+					for (std::set<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
 						if (*iter == temp){
 							Limit_Host.erase(iter);
 							break;
@@ -274,7 +276,7 @@ void Add_Search_Info(){
 				p++;
 			}
 			printf("Limit_Host:");
-			for (std::vector<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
+			for (std::set<std::string>::iterator iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
 				printf("%s  ", (*iter).c_str());
 			}
 			printf("\n");
@@ -308,7 +310,7 @@ void Add_Search_Info(){
 			printf("Start url:%s\n", url);
 			printf("Spiders:%d\n", MAX_Spiders);
 			printf("Limit_Host:");
-			std::vector<std::string>::iterator iter;
+			std::set<std::string>::iterator iter;
 			for (iter = Limit_Host.begin(); iter != Limit_Host.end(); iter++){
 				printf("%s ", (*iter).c_str());
 			}
