@@ -25,7 +25,7 @@ extern std::mutex Signal;
 
 int MAX_Spiders = 8;
 //http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go
-char url[MAX_URL_LENGTH + 1] = "http://blog.jobbole.com/tag/%E8%B6%A3%E6%96%87/";
+char url[MAX_URL_LENGTH + 1] = "http://www.njupt.edu.cn/";
 
 void show();
 void Add_Search_Info();
@@ -36,8 +36,8 @@ bool want_exit = FALSE;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//add in it 
-	Limit_Host.insert("blog");
-	Search.insert("程序员");
+	Limit_Host.insert("njupt");
+	Search.insert("研究生");
 	std::string filename;
 	std::thread *threads = new std::thread[MAX_Spiders];
 	//add info and show option
